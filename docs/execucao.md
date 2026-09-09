@@ -12,9 +12,9 @@ O roteiro inteiro foi inventariado: 404 itens contextuais / 431 ocorrências / s
 
 - `npm ci`: instalação limpa no Windows com Node 22.16/npm 10.9.2; auditoria: zero vulnerabilidades informadas.
 - `npm run check`: TypeScript, ESLint e validação integral de ativos passaram.
-- `npm test`: 76 testes de domínio, catálogo, coordenadas, recursos e ausência de revelação no simulado passaram.
+- `npm test`: 96 testes de domínio, catálogo, coordenadas, recursos e ausência de revelação no simulado passaram.
 - `npm run build`: build estático com base `/neurogame/` passou.
-- Treze testes Playwright no build de produção passaram: raycast e arrasto, aqueduto axial independente, localização/nome/alternativas, simulado e reload sem revelação, celular 390×844, recursos ausentes, ausência de WebGL, lateral/medial direita, recuperação da ocultação, importação/exportação, importação atrasada, hash/foco e axe WCAG A/AA nas telas de atlas/tutorial/configuração/progresso/cobertura. Essa varredura automatizada não certifica acessibilidade completa.
+- Quatorze testes Playwright no build de produção passaram: raycast e arrasto, aqueduto axial independente, localização/nome/alternativas, simulado e reload sem revelação, celular 390×844, recursos ausentes, ausência de WebGL, lateral/medial direita, recuperação da ocultação, importação/exportação, importação atrasada, hash/foco e axe WCAG A/AA nas telas de atlas/tutorial/configuração/progresso/cobertura. Essa varredura automatizada não certifica acessibilidade completa.
 - Sete testes de integração do aplicativo no Edge passaram: restauração, exportação com falha, alvos por teclado, repetição/duplo clique, encerramento antecipado, pausa por carregamento e anulação de fatia.
 - Revisão independente de código: nenhum P1/P2 pendente após corrigir pausa por histórico e importação atrasada. Reproduções no navegador confirmaram as correções.
 - Licença e avisos: Slicer partes B/C e prefácio, atribuições acadêmicas/NIH/Google, e SIL OFL das fontes preservados. PDFs e suas imagens não estão no público nem no Git.
@@ -22,6 +22,10 @@ O roteiro inteiro foi inventariado: 404 itens contextuais / 431 ocorrências / s
 O validador confere hashes de 258 modelos, oito pacotes, 1536 PNGs e 50.331.648 pixels de máscaras. O pipeline original foi comparado integralmente ao NRRD. Referências espaciais independentes incluem aqueduto (label 19) e núcleos caudados esquerdo/direito. Não confundir essas checagens com validação humana da anatomia.
 
 [Evidências visuais](evidence/) e [medidas do build](evidence/build-sizes.json). Shell, catálogo e WOFF2 somam cerca de 290 kB com gzip local; o primeiro hemisfério tem 35 modelos e 12,96 MB sem compressão (7,99 MB com gzip). Esses valores medem bytes locais, não velocidade da rede nem FPS. As metas de 60 FPS no desktop e 30 FPS em celular físico continuam sem medição.
+
+## Recuperação de interrupções de rede
+
+A primeira verificação pública encontrou conexões GLB interrompidas durante o carregamento simultâneo; os arquivos individuais mantinham hashes corretos. [Registro da falha](evidence/initial-public-network-failure.json). O transporte agora limita a quatro downloads, incluindo o corpo, e admite até duas novas tentativas para falhas transitórias. HTTP 404 e erros de geometria continuam finais. Cancelar uma cena remove sua fila e espera de repetição. Vinte testes adicionais e um caso de navegador com reset provocado passaram; revisão independente confirmou máximo quatro ativos e nenhum trabalho cancelado iniciado.
 
 ## Publicação
 

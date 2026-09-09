@@ -85,6 +85,7 @@ test("a delayed import cannot restore erased progress or overwrite a newer sessi
       buffer: Buffer.from(original),
     });
   await expect(page.getByLabel("Importar progresso")).toBeDisabled();
+  await expect(page.getByLabel("Importar progresso")).toHaveValue("");
   await page
     .getByRole("button", { name: "Apagar progresso", exact: true })
     .click();

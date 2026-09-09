@@ -1,0 +1,72 @@
+{
+  "releaseCommit": "fb0e05ffb534b53dc4638b7d29968e3c652b4eec",
+  "url": "https://viniciusextremxd.github.io/neurogame/",
+  "observation": "Some concurrent GLB downloads were reset; independent downloads returned matching hashes. This run is not a successful public 3D verification.",
+  "networkErrors": [
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1022.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23508.936
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1024.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23509.428
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1025.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23509.559
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1035.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23509.841
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1026.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23509.924
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1027.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23510.001
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1028.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23510.442
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1029.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23510.615
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1030.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23510.872
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1031.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23511.116
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1032.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23511.265
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1033.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23511.431
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1034.glb",
+      "error": "Failed to load resource: net::ERR_CONNECTION_RESET",
+      "timeMs": 23511.577
+    }
+  ]
+}
