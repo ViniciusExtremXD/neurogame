@@ -1,0 +1,11 @@
+{
+  "name": "neurogame", "private": true, "version": "0.1.0", "type": "module",
+  "engines": {"node": ">=22.16.0"},
+  "scripts": {
+    "dev": "vite --host 127.0.0.1", "build": "tsc -b && vite build", "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc -b", "lint": "eslint src", "test": "vitest run", "test:watch": "vitest",
+    "test:e2e": "playwright test", "validate:assets": "node scripts/validate-assets.mjs", "check": "npm run typecheck && npm run lint && npm run validate:assets"
+  },
+  "dependencies": {"react":"19.2.8","react-dom":"19.2.8","three":"0.186.0","@react-three/fiber":"9.7.0","@react-three/drei":"10.7.8","motion":"13.2.0","lucide-react":"1.43.0"},
+  "devDependencies": {"@types/react":"19.2.14","@types/react-dom":"19.2.3","@types/three":"0.185.4","@types/node":"22.19.15","typescript":"5.9.3","vite":"6.4.3","@vitejs/plugin-react":"4.7.0","vitest":"3.2.7","@playwright/test":"1.63.0","eslint":"9.39.5","typescript-eslint":"8.57.1","@eslint/js":"9.39.5","eslint-plugin-react-hooks":"7.0.1","globals":"16.5.0"}
+}
