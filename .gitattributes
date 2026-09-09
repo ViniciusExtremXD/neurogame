@@ -1,9 +1,9 @@
 * text=auto eol=lf
 # Frozen source-derived artifacts must remain byte-identical on every OS.
-public/anatomy/** -text
-public/content/** -text
-src/content/*.json -text
-scripts/assets/source-lock.json -text
+public/anatomy/** -text -whitespace
+public/content/** -text -whitespace
+src/content/*.json -text -whitespace
+scripts/assets/source-lock.json -text -whitespace
 *.glb binary
 *.png binary
 *.woff binary
