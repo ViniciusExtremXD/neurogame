@@ -1,0 +1,1841 @@
+{
+  "repository": "https://github.com/mhalle/spl-brain-atlas",
+  "commit": "bec24db25aad5f7600e2df3becfb1f883e61ff56",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/LICENSE.md",
+      "bytes": 125,
+      "sha256": "26ab4d622b3df5b7adb145862696f4b6c2c3ff7f4a24f859880050d665a63bec",
+      "gitBlobSha1": "9963862319b774d597dc09ea6360d5e602821c9e"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/README.md",
+      "bytes": 2745,
+      "sha256": "df9bd08ba332b77add60a8966540dc948cd80fa0cbd240526653a17eca1d7162",
+      "gitBlobSha1": "7fa497eff4e9ffdfd3de8471daf165bf9882108f"
+    },
+    {
+      "path": "labelinfo/brain-atlas-labels-with-metadata.tsv",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/labelinfo/brain-atlas-labels-with-metadata.tsv",
+      "bytes": 20103,
+      "sha256": "13a6a22b3bd7cef6129c9b2474fbc8ff1e22d41562a892e25770181c86088ab4",
+      "gitBlobSha1": "e0357299fa21037dcd9323685e6c1e467f0154d8"
+    },
+    {
+      "path": "labelinfo/hncma-atlas-lut.tsv",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/labelinfo/hncma-atlas-lut.tsv",
+      "bytes": 15663,
+      "sha256": "9f15a66b83d1088f8d49fdf23a5c40d28dadc84f6c121ded37f511db7e604b70",
+      "gitBlobSha1": "40447074f2eb300ae0fbed1a2f7580db945c136d"
+    },
+    {
+      "path": "slicer/atlasStructure.json",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/atlasStructure.json",
+      "bytes": 377485,
+      "sha256": "83a0196bd323259a82420ce581fb0f5b43099d7dfc7d3abba64b18dcf596fb77",
+      "gitBlobSha1": "7f08edebe4221fcf7f942295ba0f9dfab2048eac"
+    },
+    {
+      "path": "slicer/brain-atlas.mrml",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/brain-atlas.mrml",
+      "bytes": 13966673,
+      "sha256": "1cd7c8dbe8be8ad6bc5c9cf13ee33c2b942c3522541f1faf8e83b7a4d3d068dd",
+      "gitBlobSha1": "5eb7416cab78625bbdd92e2084965ecd035e6a0b"
+    },
+    {
+      "path": "slicer/models/Model_1000_left_insula.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1000_left_insula.vtk",
+      "bytes": 230376,
+      "sha256": "d94518ce4f14373fde36f3f3bf0c6721b9d97bd08d393d776df309a3b4983cf7",
+      "gitBlobSha1": "c4309095c2226ffe91df9ee78b6ddd64b9adfaa0"
+    },
+    {
+      "path": "slicer/models/Model_1001_left_superior_temporal_gyrus_(banks_of_left_superior_temporal_sulcus).vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1001_left_superior_temporal_gyrus_%28banks_of_left_superior_temporal_sulcus%29.vtk",
+      "bytes": 123239,
+      "sha256": "993efcbd34aed3a90985e7d503d9ed09b9bf92af2166860eb4225cbe78258c7d",
+      "gitBlobSha1": "15945328f109da81e4e26f7eb505641c1f491668"
+    },
+    {
+      "path": "slicer/models/Model_1002_caudal_part_of_left_anterior_cingulate_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1002_caudal_part_of_left_anterior_cingulate_gyrus.vtk",
+      "bytes": 79502,
+      "sha256": "b524c83257ad9caa410c5b14fa5bc103609779dca968f6b2dfdf2fc5ae990131",
+      "gitBlobSha1": "ebbed83e10ebed5358b84931153cc6c312c26d76"
+    },
+    {
+      "path": "slicer/models/Model_1003_posterior_part_of_left_middle_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1003_posterior_part_of_left_middle_frontal_gyrus.vtk",
+      "bytes": 245100,
+      "sha256": "42d64f734c59dd29e8b1345c247a35f0ba553f75935789aa310eeb0e5d0e8026",
+      "gitBlobSha1": "33c968c68dc4ce8293e8807fc76500320f7787de"
+    },
+    {
+      "path": "slicer/models/Model_1005_left_cuneus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1005_left_cuneus.vtk",
+      "bytes": 158976,
+      "sha256": "dd47a6bdc11aa148c4d1539505f298de7bf2dde0300739e69029176350227a89",
+      "gitBlobSha1": "51835951698079edc044a74256927e16cd05ecc1"
+    },
+    {
+      "path": "slicer/models/Model_1006_left_ambiens_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1006_left_ambiens_gyrus.vtk",
+      "bytes": 67870,
+      "sha256": "c8542c8459812793013fd75b074e8f96f6ce8cb083a57b3932cb316a5cca1360",
+      "gitBlobSha1": "e82c5d35287937e6940ba47f4815970bff2a76e8"
+    },
+    {
+      "path": "slicer/models/Model_1007_left_fusiform_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1007_left_fusiform_gyrus.vtk",
+      "bytes": 400838,
+      "sha256": "3bd28c20f255e626e6bdeb755951ac4a54c107a09b883f894019eb5f47f500a6",
+      "gitBlobSha1": "57e205b2acb0520b432d86dc5d753a102aceeaee"
+    },
+    {
+      "path": "slicer/models/Model_1008_left_inferior_parietal_lobule.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1008_left_inferior_parietal_lobule.vtk",
+      "bytes": 487766,
+      "sha256": "bf0e0bff05a4fc9b6b22093d3bb984a13625d2c1b78f6d0b46a60f66eb977cf8",
+      "gitBlobSha1": "5c813470ca42c74cc771750318892ddaca21fabf"
+    },
+    {
+      "path": "slicer/models/Model_1009_left_inferior_temporal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1009_left_inferior_temporal_gyrus.vtk",
+      "bytes": 377330,
+      "sha256": "12fe8eb33a5a654aeb2b7e35e7170c0b5cd025d6761d5862c9e0b54b3ee2baa3",
+      "gitBlobSha1": "bae55f1603329600a895708db5cadf0ecfc77fc9"
+    },
+    {
+      "path": "slicer/models/Model_100_left_mammillothalamic_tract.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_100_left_mammillothalamic_tract.vtk",
+      "bytes": 3858,
+      "sha256": "e53c5b7e7497d53a890ecf16a15ca338563171a6227c25bfeb7cd99fe204e884",
+      "gitBlobSha1": "ae700bbb939f18dd21091657dc716753a4de977b"
+    },
+    {
+      "path": "slicer/models/Model_1010_isthmus_of_left_cingulate_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1010_isthmus_of_left_cingulate_gyrus.vtk",
+      "bytes": 111695,
+      "sha256": "7d1ec6b1603a7de1a957207dd0de82f749fc840f16e674e8cda156d11a18d7d1",
+      "gitBlobSha1": "e7978426b5155e27580814a30223cd3c0cc002c8"
+    },
+    {
+      "path": "slicer/models/Model_1011_left_lateral_occipital_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1011_left_lateral_occipital_gyrus.vtk",
+      "bytes": 577482,
+      "sha256": "de866b654c9b0b618b5464bbdaf7234f4b4183252426db146e98b4fa4a7f49de",
+      "gitBlobSha1": "441e9571afdd04df44ded9fe28cd1a117937e5d2"
+    },
+    {
+      "path": "slicer/models/Model_1012_left_lateral_orbital_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1012_left_lateral_orbital_gyrus.vtk",
+      "bytes": 308616,
+      "sha256": "7b79a5951710ff30e2fc134e72c608f8eeff1fcb7ab10cde13bdc10733423318",
+      "gitBlobSha1": "8460fea3bd1010d2924a63d0c10e6bc224681004"
+    },
+    {
+      "path": "slicer/models/Model_1013_left_lingual_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1013_left_lingual_gyrus.vtk",
+      "bytes": 394470,
+      "sha256": "3d15ab7413fe95a1ee2f4ee2a3f2db5e7e793774097a8499e114930666cee50e",
+      "gitBlobSha1": "a7db6a49d9e3a47ccdd6c5b53423d81efbc0e33d"
+    },
+    {
+      "path": "slicer/models/Model_1014_left_straight_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1014_left_straight_gyrus.vtk",
+      "bytes": 199212,
+      "sha256": "890850b2dd15c9e18e6faca3cb2bc30534be42d6d72b582d4aa44bb36605c780",
+      "gitBlobSha1": "33fd1a1aa33731f6d2be232b7e2e0c987995aee5"
+    },
+    {
+      "path": "slicer/models/Model_1015_left_middle_temporal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1015_left_middle_temporal_gyrus.vtk",
+      "bytes": 461502,
+      "sha256": "869d1c43787f5dd21a328c87c261a5dd1eb5df46a82b1fb877d5db4f0a149a62",
+      "gitBlobSha1": "ec1cd0e9ae886f3c2b3978cd40ae604ff91c0d7a"
+    },
+    {
+      "path": "slicer/models/Model_1016_left_parahippocampal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1016_left_parahippocampal_gyrus.vtk",
+      "bytes": 95259,
+      "sha256": "220864abbbb19d88a3a512cf730e1d464f1f13bff9b1e2ff66088d78c861d114",
+      "gitBlobSha1": "4555203a52288d62cf27106757a5adcd9b2b3235"
+    },
+    {
+      "path": "slicer/models/Model_1017_left_paracentral_lobule.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1017_left_paracentral_lobule.vtk",
+      "bytes": 206344,
+      "sha256": "9d30cebd104835f932d30cf09790997be5cb7d59f2f057197c1bab566ae9aecc",
+      "gitBlobSha1": "b78d5d11647d8c4828b5f2a63b9cc18aa462918f"
+    },
+    {
+      "path": "slicer/models/Model_1018_opercular_part_of_left_inferior_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1018_opercular_part_of_left_inferior_frontal_gyrus.vtk",
+      "bytes": 222192,
+      "sha256": "710acb94dbbf16935235c2d0a93568d6705fddeb63d1bde1b92dfb011ee40aff",
+      "gitBlobSha1": "c0292a2ef727f29b08343887b72f6b466ce4cdea"
+    },
+    {
+      "path": "slicer/models/Model_1019_orbital_part_of_left_inferior_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1019_orbital_part_of_left_inferior_frontal_gyrus.vtk",
+      "bytes": 105167,
+      "sha256": "c9b65fcf9df716ca4ba4011a4c1c7975cb3d5a75a200f532d0d16517e84784af",
+      "gitBlobSha1": "25b9401f4238433ccf05a77e0ef01102fd7a4b45"
+    },
+    {
+      "path": "slicer/models/Model_1020_triangular_part_of_left_inferior_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1020_triangular_part_of_left_inferior_frontal_gyrus.vtk",
+      "bytes": 170976,
+      "sha256": "cc908f7e3e835a5b61ff4a6419eed84dd49118da8372fa886c2970ab0b0c32aa",
+      "gitBlobSha1": "9a0cb5de64a706af96912ff7efd967040ec73b76"
+    },
+    {
+      "path": "slicer/models/Model_1021_left_visual_cortex.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1021_left_visual_cortex.vtk",
+      "bytes": 108027,
+      "sha256": "e9157e2093c9a10795e2370b6d32bd0bd9c4378c272a5002c359797ae75c098b",
+      "gitBlobSha1": "2a77913c3f4c9b14e4c21ed6a67bf5017ff8348d"
+    },
+    {
+      "path": "slicer/models/Model_1022_left_postcentral_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1022_left_postcentral_gyrus.vtk",
+      "bytes": 541070,
+      "sha256": "20b96c4a2122ef483b7bdad60ef415037079ccee77c918a19b91f8430bb9cd87",
+      "gitBlobSha1": "e46538a575d667d7b43821c328970ddcb46c0dc8"
+    },
+    {
+      "path": "slicer/models/Model_1023_left_posterior_cingulate_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1023_left_posterior_cingulate_gyrus.vtk",
+      "bytes": 170584,
+      "sha256": "a03ec73fbf3388b75e910983f79a7b9816778329e25acbac4cd6f591a2876a61",
+      "gitBlobSha1": "a4b3c36152b10c39af2a5c9eea508fdb02a9031d"
+    },
+    {
+      "path": "slicer/models/Model_1024_left_precentral_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1024_left_precentral_gyrus.vtk",
+      "bytes": 587594,
+      "sha256": "b3b853c92545c7c4d320d46ba787b599025f1b088871d01ed5e96c6fa1e7688c",
+      "gitBlobSha1": "b197facaf5c88773bfda381408aa2b494154774e"
+    },
+    {
+      "path": "slicer/models/Model_1025_left_precuneus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1025_left_precuneus.vtk",
+      "bytes": 464034,
+      "sha256": "7d2fa3a31afdbfd2dae4c57e301f580f1c6112a12ac659d56e205c6aadee9683",
+      "gitBlobSha1": "3191c23df29cd65fcfdb6201b0d2175b00baf8e3"
+    },
+    {
+      "path": "slicer/models/Model_1026_rostral_part_of_left_anterior_cingulate_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1026_rostral_part_of_left_anterior_cingulate_gyrus.vtk",
+      "bytes": 95231,
+      "sha256": "2d696e14d587d119583bcf800bfc4c4d0838fc46ec021799f1202b78fc26d8af",
+      "gitBlobSha1": "f68274cf3d8fc34304ccedb49e0bd74c0e966e7e"
+    },
+    {
+      "path": "slicer/models/Model_1027_anterior_part_of_left_middle_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1027_anterior_part_of_left_middle_frontal_gyrus.vtk",
+      "bytes": 556518,
+      "sha256": "a1e659ab39f32dee6d817d73d8e6c3976444913de87f669dec36eb5ea22174ca",
+      "gitBlobSha1": "edb1db5f97606179a193cffd4adbdea10354c507"
+    },
+    {
+      "path": "slicer/models/Model_1028_left_superior_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1028_left_superior_frontal_gyrus.vtk",
+      "bytes": 787910,
+      "sha256": "6e1bed8346e1bdb59e6b125ddef892c8009e99f486434fe44fff8ab1ccc1d6a2",
+      "gitBlobSha1": "5bf16febf29df5a33cd84d1beffa34ec8a089304"
+    },
+    {
+      "path": "slicer/models/Model_1029_left_superior_parietal_lobule.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1029_left_superior_parietal_lobule.vtk",
+      "bytes": 635822,
+      "sha256": "486bbdd8592e66c7c9d09528a48acd162f80d77bd1c12ecdccdd1df22537194c",
+      "gitBlobSha1": "66217d0072cfaaf26dee3143e6a44d0b20b1382a"
+    },
+    {
+      "path": "slicer/models/Model_1030_left_superior_temporal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1030_left_superior_temporal_gyrus.vtk",
+      "bytes": 448010,
+      "sha256": "a68e1125d5340bfa20a99f89e88f3e7906c381ad7eadabf6fe121613b5c92902",
+      "gitBlobSha1": "788a58870f8a67c013ed75e8fe888db7fdb3339b"
+    },
+    {
+      "path": "slicer/models/Model_1031_left_supramarginal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1031_left_supramarginal_gyrus.vtk",
+      "bytes": 516302,
+      "sha256": "a53a605e2fe6c85b5fee9f49a8e46bd0c0e08a4f10a50240d563cc250802dbef",
+      "gitBlobSha1": "89ca22517c784f05a7b2ff4108f1d78af3431be7"
+    },
+    {
+      "path": "slicer/models/Model_1032_left_frontal_pole.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1032_left_frontal_pole.vtk",
+      "bytes": 44758,
+      "sha256": "be183360b832bdb8e22486d39b66eb026e18352bb81be96ef8c3e7ecd2b3715f",
+      "gitBlobSha1": "608aaac2731ae901b8beb48a2a43083dc9f07e66"
+    },
+    {
+      "path": "slicer/models/Model_1033_left_temporal_pole.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1033_left_temporal_pole.vtk",
+      "bytes": 98619,
+      "sha256": "ca480ba8aebd013c27ea67378dcdb4586592fded6a590ece1b47e2eb2991c8a4",
+      "gitBlobSha1": "2ec514fd56262ffd9f960c62110ccfd94a014c4e"
+    },
+    {
+      "path": "slicer/models/Model_1034_left_transverse_temporal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1034_left_transverse_temporal_gyrus.vtk",
+      "bytes": 79930,
+      "sha256": "46be207c72ad68ad6daab3ecfe438699eb1f79f52e759d7e009b0975ce178e0a",
+      "gitBlobSha1": "0a5e16f4991b4f072132bfa10a2fcdb7b54a7d2c"
+    },
+    {
+      "path": "slicer/models/Model_1035_left_limen_insulae.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_1035_left_limen_insulae.vtk",
+      "bytes": 23984,
+      "sha256": "22607a133907b227ea6897f827a9d721cfa5ea5213f82df004bb0dd2275ca5ca",
+      "gitBlobSha1": "d1b397dc99594f291f9f54425cb272ae3b700087"
+    },
+    {
+      "path": "slicer/models/Model_11_left_caudate_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_11_left_caudate_nucleus.vtk",
+      "bytes": 120120,
+      "sha256": "bae94f36e477b6525e86eb6e00ee92df77d9640f9557f1e02f88be1f0f0f4263",
+      "gitBlobSha1": "6f6731f5cc059ce262a545955aa38ac1745e0551"
+    },
+    {
+      "path": "slicer/models/Model_12_left_putamen.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_12_left_putamen.vtk",
+      "bytes": 104487,
+      "sha256": "feeece720c070f9b1de4834af2c6e68afa65dbfe731c4ab3ed385fd314615f4c",
+      "gitBlobSha1": "2934f60f5363c102d8930f008ad940cc9028241e"
+    },
+    {
+      "path": "slicer/models/Model_13_left_globus_pallidus_pars_externa.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_13_left_globus_pallidus_pars_externa.vtk",
+      "bytes": 44362,
+      "sha256": "26117439155f95561caccede6a158005885575e3edd8180e1f3502e66bc6c64f",
+      "gitBlobSha1": "7e05d874cb230b06a57a6ba688e5696977622459"
+    },
+    {
+      "path": "slicer/models/Model_142_anterior_commissure.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_142_anterior_commissure.vtk",
+      "bytes": 37262,
+      "sha256": "fe782c7d568904711df6e0447581162fd01bb2ac73f52407a984a591f1e8ab67",
+      "gitBlobSha1": "6fc69821ab167505d3c43b47111f5160a9ac1e86"
+    },
+    {
+      "path": "slicer/models/Model_15_fourth_ventricle.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_15_fourth_ventricle.vtk",
+      "bytes": 119680,
+      "sha256": "d8694a65d7a99f649fd211a4e6d7fb027cbb32490b4d344095d948039f799c0f",
+      "gitBlobSha1": "ccf83186676ebb604c649e7052bf4f6386ffe393"
+    },
+    {
+      "path": "slicer/models/Model_17_left_hippocampus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_17_left_hippocampus.vtk",
+      "bytes": 107691,
+      "sha256": "907af400218e9285c1b34d3c5807d4bce09c4769fe53893fd2490289e4a1d676",
+      "gitBlobSha1": "711b421827ae4f954c9241bfbaca9ae2a477a22f"
+    },
+    {
+      "path": "slicer/models/Model_18_left_amygdala.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_18_left_amygdala.vtk",
+      "bytes": 39850,
+      "sha256": "7927f02a2d2ebabe48129e4ea110e9eb8ddac0edb02d4f42ba09e46be1ee52c5",
+      "gitBlobSha1": "4e1c45f991518e1d4b2bf9b1b19b1d293e7beafe"
+    },
+    {
+      "path": "slicer/models/Model_19_aqueduct.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_19_aqueduct.vtk",
+      "bytes": 13848,
+      "sha256": "428f488331ad53e33e7767baebbfc255765f172481d9181632b9338a671eea2b",
+      "gitBlobSha1": "a26ab34b3e2a6f1ac285c3b78329724b591d5194"
+    },
+    {
+      "path": "slicer/models/Model_2000_right_insula.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2000_right_insula.vtk",
+      "bytes": 200968,
+      "sha256": "c81f144218ec372528cf7827fbf146a762566dbc3640da7ea255fd3493510773",
+      "gitBlobSha1": "9ed7732017bbf80427f1a5917b57d4e5fe7b521c"
+    },
+    {
+      "path": "slicer/models/Model_2001_right_superior_temporal_gyrus_(banks_of_right_superior_temporal_sulcus).vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2001_right_superior_temporal_gyrus_%28banks_of_right_superior_temporal_sulcus%29.vtk",
+      "bytes": 115311,
+      "sha256": "d49c9a3451dcabec1dba23da1f6ae8de287411734ffe0c2aa039c5d8694da738",
+      "gitBlobSha1": "1a8794e687b583d401b296e3519439f18ccc6686"
+    },
+    {
+      "path": "slicer/models/Model_2002_caudal_part_of_right_anterior_cingulate_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2002_caudal_part_of_right_anterior_cingulate_gyrus.vtk",
+      "bytes": 117663,
+      "sha256": "07466afadcede70bf1b8b7a4a8fa31d8cbb9166dda601563a62d462e781d29ae",
+      "gitBlobSha1": "83248eaa839e4e87d40f4ce5a9ea7cc040ce3771"
+    },
+    {
+      "path": "slicer/models/Model_2003_posterior_part_of_right_middle_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2003_posterior_part_of_right_middle_frontal_gyrus.vtk",
+      "bytes": 190408,
+      "sha256": "f2c698b864ecd2a7457fdd6bf81a095b3185348062913bb449bf7851fe91675f",
+      "gitBlobSha1": "867efd5272f5ac6d5632c1c293bd4e9d0cb14ef5"
+    },
+    {
+      "path": "slicer/models/Model_2005_right_cuneus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2005_right_cuneus.vtk",
+      "bytes": 234348,
+      "sha256": "001c738b7f9de1491c7af227988fd86669942e74e3deb82e7918a3d412c7b2b5",
+      "gitBlobSha1": "19ee006439e67e5c58fd087b77e61b1db2b9cdbf"
+    },
+    {
+      "path": "slicer/models/Model_2006_right_ambiens_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2006_right_ambiens_gyrus.vtk",
+      "bytes": 97995,
+      "sha256": "461e7f81c7a325a69e313e426b81c48f2172ac491a3321d75fcabfd266efb616",
+      "gitBlobSha1": "cb8c2053a8fd530f6ac7e352286e0c3340398108"
+    },
+    {
+      "path": "slicer/models/Model_2007_right_fusiform_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2007_right_fusiform_gyrus.vtk",
+      "bytes": 428022,
+      "sha256": "ae30ab4080a25dea5e40b15098851a680f90c836f4f18efc54f48d02cd595001",
+      "gitBlobSha1": "90a69dea299452b61b59020d9cf2937cd5312e62"
+    },
+    {
+      "path": "slicer/models/Model_2008_right_inferior_parietal_lobule.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2008_right_inferior_parietal_lobule.vtk",
+      "bytes": 600578,
+      "sha256": "9d9d172275f8168b8e27c1fc19b14fe242cbf5c49782a6d189534a44aa036384",
+      "gitBlobSha1": "2c446e8470da5d0a26d7f7104f9fdb6379b7d586"
+    },
+    {
+      "path": "slicer/models/Model_2009_right_inferior_temporal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2009_right_inferior_temporal_gyrus.vtk",
+      "bytes": 425466,
+      "sha256": "233422238486dab0f13f18e2b0535152372be4fee38819cc5f094c14869f3c17",
+      "gitBlobSha1": "bcdc9905a96af070aa2061ee9e8fdc45e0c917c1"
+    },
+    {
+      "path": "slicer/models/Model_200_right_mammillothalamic_tract.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_200_right_mammillothalamic_tract.vtk",
+      "bytes": 3850,
+      "sha256": "d86eb0c5d7b7900e815ba6a8957771f0df9b7370ee5a439a93d832382efda2fc",
+      "gitBlobSha1": "500b3f01a2c0d10cf0e1817855a7c7be03128ca3"
+    },
+    {
+      "path": "slicer/models/Model_2010_isthmus_of_right_cingulate_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2010_isthmus_of_right_cingulate_gyrus.vtk",
+      "bytes": 131056,
+      "sha256": "03cb1d8c69c4022d4c42ab236532cba9f397e015eceec656d55add849aac5599",
+      "gitBlobSha1": "5bcdd6a1faca1171eb6161ab06428bce01810510"
+    },
+    {
+      "path": "slicer/models/Model_2011_right_lateral_occipital_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2011_right_lateral_occipital_gyrus.vtk",
+      "bytes": 490694,
+      "sha256": "a23bda6d33515582f51f5852bef0ac693cc3a1af1b66ffa4fc6720fa6716ec9c",
+      "gitBlobSha1": "5b47729e01ffa0a3e14dbb71a92dcb683b481138"
+    },
+    {
+      "path": "slicer/models/Model_2012_right_lateral_orbital_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2012_right_lateral_orbital_gyrus.vtk",
+      "bytes": 316228,
+      "sha256": "f752b6030aee1041b67cfccfdfac8ba2816ef405c1f016fae206d8b807fda5bc",
+      "gitBlobSha1": "3a1dc229ff34f253e8f1dd9097c592b89e7ee823"
+    },
+    {
+      "path": "slicer/models/Model_2013_right_lingual_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2013_right_lingual_gyrus.vtk",
+      "bytes": 354438,
+      "sha256": "a21c50579ce20e18afae2de2a5d0aa5a1647378c9a4aad6096c8f94c94e42003",
+      "gitBlobSha1": "42580c39f0c03bd906fcc8a7e326d5edf19e2ccc"
+    },
+    {
+      "path": "slicer/models/Model_2014_right_straight_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2014_right_straight_gyrus.vtk",
+      "bytes": 216816,
+      "sha256": "60e2884901b59685c127a7ca840e16831c610f3b14db92ee885f1c385c38da67",
+      "gitBlobSha1": "adb0c9e61cf241ca5fb299f92a625542fa0cd842"
+    },
+    {
+      "path": "slicer/models/Model_2015_right_middle_temporal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2015_right_middle_temporal_gyrus.vtk",
+      "bytes": 481902,
+      "sha256": "efb79c4a79aa9e2469d29c675a3c3c216223cbc444195c9c133da031ea53f41d",
+      "gitBlobSha1": "cfea836e5f98995577f7f4be1804d4faa92edceb"
+    },
+    {
+      "path": "slicer/models/Model_2016_right_parahippocampal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2016_right_parahippocampal_gyrus.vtk",
+      "bytes": 83890,
+      "sha256": "3e9bccea4376e9a8a7ce266e374100e2872ab26abd67acdf69b960932715623a",
+      "gitBlobSha1": "a175b7eb3cd6cc7bcfedd7825c916ae73b6f1489"
+    },
+    {
+      "path": "slicer/models/Model_2017_right_paracentral_lobule.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2017_right_paracentral_lobule.vtk",
+      "bytes": 172480,
+      "sha256": "998f8fe30666bdada2c2caa139f4c141530b45b2a0e9b77c7314c6fb3c8d75d0",
+      "gitBlobSha1": "d6cbfb62adf4840a9080931351e4a760340d2fc4"
+    },
+    {
+      "path": "slicer/models/Model_2018_opercular_part_of_right_inferior_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2018_opercular_part_of_right_inferior_frontal_gyrus.vtk",
+      "bytes": 160804,
+      "sha256": "18d31f564f95e9fea284d5cc9f367ae5d45fc327e2c2e50fcae4691e9ff3d5c3",
+      "gitBlobSha1": "13b068149fe61d259254ba8a35f061dc5fed2d72"
+    },
+    {
+      "path": "slicer/models/Model_2019_orbital_part_of_right_inferior_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2019_orbital_part_of_right_inferior_frontal_gyrus.vtk",
+      "bytes": 128076,
+      "sha256": "75400c014a3544b5ee7d75bb3e779b8be17900902f35307a3f0e587ec8d5de8e",
+      "gitBlobSha1": "273cd759299689c5bf75d6ab02313d6357d9ae43"
+    },
+    {
+      "path": "slicer/models/Model_2020_triangular_part_of_right_inferior_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2020_triangular_part_of_right_inferior_frontal_gyrus.vtk",
+      "bytes": 178000,
+      "sha256": "d1b2647fb29ddf25b1efba6fa197b66b39f06883cedd91d4db54494dad2a49f2",
+      "gitBlobSha1": "45ecbb5f56ba53bf1645a5849046666e217bae3e"
+    },
+    {
+      "path": "slicer/models/Model_2021_right_visual_cortex.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2021_right_visual_cortex.vtk",
+      "bytes": 194068,
+      "sha256": "48744caafa239583c3251cbee1da7fcc93a9d4ca30f4c49b7d18aaf0ad471d3f",
+      "gitBlobSha1": "d204ffe7a354250d6eaacd448195f480f9427feb"
+    },
+    {
+      "path": "slicer/models/Model_2022_right_postcentral_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2022_right_postcentral_gyrus.vtk",
+      "bytes": 464250,
+      "sha256": "12a5f6e8a1365a6bf291c2a2c06ffaf0f5bbf27acca54d7e67e5f1ae9dc99e1c",
+      "gitBlobSha1": "e09bd664feef54058b1ac67c0b94c2700041dd73"
+    },
+    {
+      "path": "slicer/models/Model_2023_right_posterior_cingulate_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2023_right_posterior_cingulate_gyrus.vtk",
+      "bytes": 182064,
+      "sha256": "80468e84e949f06b38c0c02810a9e2bbdd646e726d4a88b8708e492ed95caf42",
+      "gitBlobSha1": "550d805a7af683e73699ed8ea8808726e62b44f4"
+    },
+    {
+      "path": "slicer/models/Model_2024_right_precentral_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2024_right_precentral_gyrus.vtk",
+      "bytes": 537230,
+      "sha256": "8cd21915c9ec79b87497cbed9559b5b9acdbcac1b63c0dfa9c39319b7608f0fc",
+      "gitBlobSha1": "73888b80043178ddb3525dab03effb33287932d5"
+    },
+    {
+      "path": "slicer/models/Model_2025_right_precuneus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2025_right_precuneus.vtk",
+      "bytes": 485598,
+      "sha256": "5a300357053cfb22008b65075ea1317f8efa2701d708c6cd4a27cf4b1194474d",
+      "gitBlobSha1": "edf165019f93df855b20dd3fc3c4b5fcaea6c044"
+    },
+    {
+      "path": "slicer/models/Model_2026_rostral_part_of_right_anterior_cingulate_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2026_rostral_part_of_right_anterior_cingulate_gyrus.vtk",
+      "bytes": 77774,
+      "sha256": "3b08cc16ea00284d90d232655130290965dbdecb87db91551eccaebeb6d1fb22",
+      "gitBlobSha1": "58ae27de7a6a93658e9ebd6bf5f0115d9bc4f526"
+    },
+    {
+      "path": "slicer/models/Model_2027_anterior_part_of_right_middle_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2027_anterior_part_of_right_middle_frontal_gyrus.vtk",
+      "bytes": 739682,
+      "sha256": "fc9149ba55bb5d624b267694b4d28573a4949ab97f6a1c1e29beb4808c9a8fd8",
+      "gitBlobSha1": "4f1fda8e7612e23e5c75efa036a0dda4e41bfb45"
+    },
+    {
+      "path": "slicer/models/Model_2028_right_superior_frontal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2028_right_superior_frontal_gyrus.vtk",
+      "bytes": 776118,
+      "sha256": "3f5281d1d8b6c3ce7f9ecc7d0a437c54f4f37a1d252d46c688ed35e18f6da6b7",
+      "gitBlobSha1": "e292b8c038601d8d5fbf189314e1a62220099147"
+    },
+    {
+      "path": "slicer/models/Model_2029_right_superior_parietal_lobule.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2029_right_superior_parietal_lobule.vtk",
+      "bytes": 584114,
+      "sha256": "d2348b38d3e07f6cae225d3be0af169dcdd0dfcfae939ec7b0a90965a8e87253",
+      "gitBlobSha1": "3131e38a3d9c240a44f4b9bf224b365e7767c712"
+    },
+    {
+      "path": "slicer/models/Model_2030_right_superior_temporal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2030_right_superior_temporal_gyrus.vtk",
+      "bytes": 459290,
+      "sha256": "9c831cf812dde10158890d3c0a17c18553b99de88b6b9d6cbb083213ce603517",
+      "gitBlobSha1": "a77d6cb6ed908346c69f1bf0a5dfc845eb40b801"
+    },
+    {
+      "path": "slicer/models/Model_2031_right_supramarginal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2031_right_supramarginal_gyrus.vtk",
+      "bytes": 378150,
+      "sha256": "511ccb52874d414920e286ca0303027e9cb7173615377419b277282eac05c5b0",
+      "gitBlobSha1": "26215558b438c991dca7162b3b8e7cd8ecc6bee5"
+    },
+    {
+      "path": "slicer/models/Model_2032_right_frontal_pole.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2032_right_frontal_pole.vtk",
+      "bytes": 35772,
+      "sha256": "a60fe163d01beee43a6b9e76276567898e39ba58091c98de37e00a6132c47749",
+      "gitBlobSha1": "dc3960a122d72d2bb48838634327084b3706fbbe"
+    },
+    {
+      "path": "slicer/models/Model_2033_right_temporal_pole.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2033_right_temporal_pole.vtk",
+      "bytes": 78494,
+      "sha256": "2ad721c25881acd6f7a7c2d94de54f416e692cdb4317ad3a08ca6ba2823beed5",
+      "gitBlobSha1": "23c2c541abe6105529c457182289cea7a24d46c2"
+    },
+    {
+      "path": "slicer/models/Model_2034_right_transverse_temporal_gyrus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2034_right_transverse_temporal_gyrus.vtk",
+      "bytes": 75110,
+      "sha256": "a7b5f381b2bcbd72f8276d64ef6850727769e2caa7c854e290696bef950e814a",
+      "gitBlobSha1": "889fec7e4b402ce59c0b08b48ca43608b3e464ec"
+    },
+    {
+      "path": "slicer/models/Model_2035_right_limen_insulae.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2035_right_limen_insulae.vtk",
+      "bytes": 31604,
+      "sha256": "7ef55b917020e2252bf94e8eb85e56ee43c1621f6e3287545bc56465cdca26ef",
+      "gitBlobSha1": "bad7c10b36e5d54996b81b878f5b9bcc7c831b93"
+    },
+    {
+      "path": "slicer/models/Model_215_right_optic_nerve.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_215_right_optic_nerve.vtk",
+      "bytes": 22848,
+      "sha256": "d8ab4ce06c5c73aba2e08a6e61d406927f97ba9a6ff47e71c9cce9bd2d3cb642",
+      "gitBlobSha1": "477b402653615be0b526def79d3d6e107be39410"
+    },
+    {
+      "path": "slicer/models/Model_216_right_optic_tract.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_216_right_optic_tract.vtk",
+      "bytes": 21048,
+      "sha256": "8b9523f7cb3461045bf11a2189116327e601f9de860da35c37434208bbaa1eb2",
+      "gitBlobSha1": "50b1c8fc0111bda1728eb040fc1ed695f447b49b"
+    },
+    {
+      "path": "slicer/models/Model_24_third_ventricle.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_24_third_ventricle.vtk",
+      "bytes": 48478,
+      "sha256": "0a3420b8f810418f57a6294f20a5207ac5e824c41d93c9523477e8cd0657c676",
+      "gitBlobSha1": "fa77e03e36786bfa35f5959c36a54c912ddaa66f"
+    },
+    {
+      "path": "slicer/models/Model_25_left_globus_pallidus_pars_interna.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_25_left_globus_pallidus_pars_interna.vtk",
+      "bytes": 30308,
+      "sha256": "669de67af4e5806e5c83aefe3f4d788ffa1beb0022bde86e5a67d011cbcac3f6",
+      "gitBlobSha1": "daa235622cb58a0c1b698906b66c5bb48da6db16"
+    },
+    {
+      "path": "slicer/models/Model_26_left_nucleus_accumbens.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_26_left_nucleus_accumbens.vtk",
+      "bytes": 27956,
+      "sha256": "287371032b83820de44ac6fdb68791e96e84cd8faaf5f94f01ffc1d06a7207bb",
+      "gitBlobSha1": "e262749351d498b73d97d1f46e606c49303c5b54"
+    },
+    {
+      "path": "slicer/models/Model_2_white_matter_of_left_cerebral_hemisphere.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_2_white_matter_of_left_cerebral_hemisphere.vtk",
+      "bytes": 4335738,
+      "sha256": "1cc5d1a001757d1cc136f30f6e3c3bd4f3bfe34cea71773714fcab5fed048ea3",
+      "gitBlobSha1": "f744c9070881cf52fdf90f4fabc2b194ec9c8d70"
+    },
+    {
+      "path": "slicer/models/Model_3000_right_claustrum.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3000_right_claustrum.vtk",
+      "bytes": 63386,
+      "sha256": "89a2e600377cf38633c8b3fb5a928c859bbb52c4c4f1e099fc699eb89a89b678",
+      "gitBlobSha1": "7a9eec7e0c8d9e0b797b3f94e10852d2dd275a7d"
+    },
+    {
+      "path": "slicer/models/Model_3001_left_claustrum.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3001_left_claustrum.vtk",
+      "bytes": 96815,
+      "sha256": "ec618bbc5424c87d2f97aa8b3736acb39e3fd32863f6dca45e9d35f4ce3a5f7d",
+      "gitBlobSha1": "a582c24cb26c3013ecfec2bc32fde019b3c9ddb6"
+    },
+    {
+      "path": "slicer/models/Model_3002_right_mammillary_body.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3002_right_mammillary_body.vtk",
+      "bytes": 4174,
+      "sha256": "7d62b5dc325e4c853697f0a1d55b786bda14c9713674a943d7665b6ad84617d6",
+      "gitBlobSha1": "fb6e5a984339a2f0a97ff7cfa97a050d62d9ccb5"
+    },
+    {
+      "path": "slicer/models/Model_3003_left_mammillary_body.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3003_left_mammillary_body.vtk",
+      "bytes": 3726,
+      "sha256": "afe7daec21875a0b1b5f007e1fa1561817344f585d8b62e9a4b605aef96ca3b3",
+      "gitBlobSha1": "ac2d957281d73784b7ae9092acbfef227e7948bf"
+    },
+    {
+      "path": "slicer/models/Model_3004_corpus_callosum.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3004_corpus_callosum.vtk",
+      "bytes": 435918,
+      "sha256": "398bc014ebafb72feed86e2579ea1037075d546fcde60c541b68a565afaa93e5",
+      "gitBlobSha1": "66819f1f3b5caca0ac9d1a1b5f62cbbe9e669a3d"
+    },
+    {
+      "path": "slicer/models/Model_3005_right_fornix_of_forebrain.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3005_right_fornix_of_forebrain.vtk",
+      "bytes": 54586,
+      "sha256": "727e70f1f978ae5c1ab7d8feb58665baa3a7b76b921065d84ed47b68f523fe3f",
+      "gitBlobSha1": "d721b902a3ca0f5d9012ae22753fbc14ae92671e"
+    },
+    {
+      "path": "slicer/models/Model_3007_left_fornix_of_forebrain.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3007_left_fornix_of_forebrain.vtk",
+      "bytes": 52562,
+      "sha256": "67a35e06fa65f96b5a6caa621b19620b5908f909655dca5a5c8b424618e23dfa",
+      "gitBlobSha1": "98e7a77d3b5eaaa10e332e2d08569f90ef9d042f"
+    },
+    {
+      "path": "slicer/models/Model_3008_infundibulum_of_neurohypophysis.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3008_infundibulum_of_neurohypophysis.vtk",
+      "bytes": 4818,
+      "sha256": "e941fcf1647b4079c555f927723b7c539a5e297ecbbb39a69504e8e523c71dac",
+      "gitBlobSha1": "247717fe9ee529cc00afe58faa0f43e94392f53c"
+    },
+    {
+      "path": "slicer/models/Model_300_left-I_II-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_300_left-I_II-v.vtk",
+      "bytes": 14040,
+      "sha256": "b72ef6388a920791bc66a98d72d3946949761bb7f34537d38b1096f434ca2e62",
+      "gitBlobSha1": "c25741ca5b890017f61cd081df5776d82dc56527"
+    },
+    {
+      "path": "slicer/models/Model_3011_adenohypophysis.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3011_adenohypophysis.vtk",
+      "bytes": 8958,
+      "sha256": "b98cff25cc4fb621f8b1d66ee016bdc09047364d3da6b2d04f3cc0e7bac3a3f3",
+      "gitBlobSha1": "1dc932388829a7c475a3d499d229e81534d6f19b"
+    },
+    {
+      "path": "slicer/models/Model_3012_neurohypophysis.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3012_neurohypophysis.vtk",
+      "bytes": 9275,
+      "sha256": "6a04be4acba2af6866bd68160d3fd4662ff0fe482b501412f2e21c3c8dbd2e5f",
+      "gitBlobSha1": "60774bcef0f0d0da9bb27d13636e93ddd9add24c"
+    },
+    {
+      "path": "slicer/models/Model_301_left-III-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_301_left-III-v.vtk",
+      "bytes": 33488,
+      "sha256": "aaeb91f0ad7c02c70855543ce9eab75023b7cbddffe79959bf02e4b8c1318b24",
+      "gitBlobSha1": "ab8e622e383ebe8805f1ae47dad3a41ff3888a4d"
+    },
+    {
+      "path": "slicer/models/Model_3020_right_superior_colliculus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3020_right_superior_colliculus.vtk",
+      "bytes": 3644,
+      "sha256": "4ca3a5fa1efc3a8382f46a24a3c522af19be3bd7a896b40cd5ba9c01449aab1c",
+      "gitBlobSha1": "c44269ea202ddd2cd232428d75d4d8004ec935f6"
+    },
+    {
+      "path": "slicer/models/Model_3021_left_superior_colliculus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3021_left_superior_colliculus.vtk",
+      "bytes": 3910,
+      "sha256": "9a32c8b34c29ae9efdf783bf5a7e9b8daa322295086206bb34b87bd1c055c2d6",
+      "gitBlobSha1": "dfafcb227604300ba57da4ef26eeccaad69cf96c"
+    },
+    {
+      "path": "slicer/models/Model_3022_right_inferior_colliculus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3022_right_inferior_colliculus.vtk",
+      "bytes": 4282,
+      "sha256": "4cdeb42aad3d6f7cf35c9980cb50e709419d06b455eef96e7d986165f2792517",
+      "gitBlobSha1": "06dfecc6028e468175b53138c7797831e6eb64f6"
+    },
+    {
+      "path": "slicer/models/Model_3023_left_inferior_colliculus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3023_left_inferior_colliculus.vtk",
+      "bytes": 3918,
+      "sha256": "949ca9dafeb145a0ce74a5a821eefccc8230b1b1fe53963793303b025fc530e3",
+      "gitBlobSha1": "f52577ee2a1b8be99ca37ecddefd740b45c9eb56"
+    },
+    {
+      "path": "slicer/models/Model_302_left-IV-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_302_left-IV-v.vtk",
+      "bytes": 47746,
+      "sha256": "ae933332ee8fea0439391cbe9b9b1911d458291ae9a5d38a8c7a62aa44b38c43",
+      "gitBlobSha1": "4de5ab0aa80e17fdc1592e7ac5e2f74ab39ee0ed"
+    },
+    {
+      "path": "slicer/models/Model_3030_brachia_of_right_superior_colliculus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3030_brachia_of_right_superior_colliculus.vtk",
+      "bytes": 4786,
+      "sha256": "3b05e4e2c818b8f9bb442ee1ee5f2fc10f7aeaafb305d68a5e5db738cb59fb88",
+      "gitBlobSha1": "8457aac5b1a5d859cfbd6d2d57aa1d0609873a32"
+    },
+    {
+      "path": "slicer/models/Model_3031_brachia_of_left_superior_colliculus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3031_brachia_of_left_superior_colliculus.vtk",
+      "bytes": 5266,
+      "sha256": "92bb5a8869f1912fff50967fbf85951804dd1489bda7f717b93dc5eef6dac2f1",
+      "gitBlobSha1": "6af1fafd3cafce2cebc683f2db8cd469f7e4c42e"
+    },
+    {
+      "path": "slicer/models/Model_3032_brachia_of_right_inferior_colliculus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3032_brachia_of_right_inferior_colliculus.vtk",
+      "bytes": 5890,
+      "sha256": "cd3fcc96cd5538c3dc189b0f4d18cb9974b07e34e17336152123cf565a473df9",
+      "gitBlobSha1": "1995bc73d7921a992770f6d113adf5bbf4959a7d"
+    },
+    {
+      "path": "slicer/models/Model_3033_brachia_of_left_inferior_colliculus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_3033_brachia_of_left_inferior_colliculus.vtk",
+      "bytes": 6070,
+      "sha256": "a39aa75b6243d2221bc6df101edf5d2ab426580ab05ed12969f756302205ac54",
+      "gitBlobSha1": "a6a41c614bd5cef5b543722d6b472ca96b65f8d3"
+    },
+    {
+      "path": "slicer/models/Model_303_left-V-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_303_left-V-v.vtk",
+      "bytes": 57118,
+      "sha256": "2cfb1d5b728f1c118817b6e5380915011d2adc8b81e3fbc73ef54652a7359643",
+      "gitBlobSha1": "5b7f49d53e601b1ba529a38fc1721d3c445a5c63"
+    },
+    {
+      "path": "slicer/models/Model_304_left-VI-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_304_left-VI-v.vtk",
+      "bytes": 22068,
+      "sha256": "6a26b09b694afac70b5deebbb4389d6b833322ae59b07afc07a2393570dd331b",
+      "gitBlobSha1": "97428122e3bc09e46e4340cbf773bf7fe1b3ba3e"
+    },
+    {
+      "path": "slicer/models/Model_307_left-VIIB-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_307_left-VIIB-v.vtk",
+      "bytes": 12323,
+      "sha256": "6e3688a3974ce56bfe611a4cb5f0171adb204440e5d3a03938097e672e1c6aee",
+      "gitBlobSha1": "918f3fefcf8d87933bc4a2d0f1e7b9880c6f08ee"
+    },
+    {
+      "path": "slicer/models/Model_308_left-VIIIA-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_308_left-VIIIA-v.vtk",
+      "bytes": 26016,
+      "sha256": "5686adaff5a32a2ed72ece96cccfe8f0fffd82d593bac4eabc3663e1afe0204a",
+      "gitBlobSha1": "d5d023f607378ae6d1e701322cf5c1b3c8b19902"
+    },
+    {
+      "path": "slicer/models/Model_309_left-VIIIB-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_309_left-VIIIB-v.vtk",
+      "bytes": 13952,
+      "sha256": "1c00bf817f3511be61f16c362da2f8840b3a9787661306096261a005a4d1533b",
+      "gitBlobSha1": "3519c6bd86571729703b465f30067ef9eb40cc43"
+    },
+    {
+      "path": "slicer/models/Model_310_left-IX-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_310_left-IX-v.vtk",
+      "bytes": 15968,
+      "sha256": "c58f83ed6312ac0bbc9b9d359f13429792b38ac999c36b4a59d850f418c6b361",
+      "gitBlobSha1": "9f32ced3e00fab74acd080d87a4ebdd7e944db61"
+    },
+    {
+      "path": "slicer/models/Model_311_left-X-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_311_left-X-v.vtk",
+      "bytes": 10519,
+      "sha256": "f8a60c3bd230c7ced27bdc8d900b11c19e1fb6fa6b6c0f8c4e08c2aae4b8795d",
+      "gitBlobSha1": "6e358e98b84ad3e9e516883c45c02195146e59e7"
+    },
+    {
+      "path": "slicer/models/Model_312_left-III-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_312_left-III-m.vtk",
+      "bytes": 3352,
+      "sha256": "2419157e4f7ce5e2e8200a78b6e942071454a0b79713e22e244bd3a83759e2ce",
+      "gitBlobSha1": "47f0c96276b0a9a11081581e2c7f380f14480311"
+    },
+    {
+      "path": "slicer/models/Model_313_left-IV-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_313_left-IV-m.vtk",
+      "bytes": 12860,
+      "sha256": "737103a26b16ed3c0078c6d90dedb12efb4677224091d7df8a80fb313a4ad55a",
+      "gitBlobSha1": "8a782eb7d49b9b0c4163ad35e74c37ff7f730440"
+    },
+    {
+      "path": "slicer/models/Model_314_left-V-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_314_left-V-m.vtk",
+      "bytes": 24024,
+      "sha256": "81cc347649b972cdbd2d55575172eb81007881a2519bd8f201a060acf3954580",
+      "gitBlobSha1": "846b4daf14ec25bb5a8f5630cd48d9c7b03884d1"
+    },
+    {
+      "path": "slicer/models/Model_315_left-VI-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_315_left-VI-m.vtk",
+      "bytes": 65870,
+      "sha256": "0c7662a974bae3e3dce10ca7c86f8c263fd38fde17a7b6f9b3d9227bf5e6ff93",
+      "gitBlobSha1": "e14e7c4ba4b72d6999399ab773947effedb01f01"
+    },
+    {
+      "path": "slicer/models/Model_316_left-VIIA_crusI-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_316_left-VIIA_crusI-m.vtk",
+      "bytes": 44830,
+      "sha256": "e1619250e79d257cef08598ab2ae3b8fb031e917da3521e57159c6dd7ea4ea20",
+      "gitBlobSha1": "7e810e060a2011b2dd231d9d5ebdd91549023b73"
+    },
+    {
+      "path": "slicer/models/Model_317_left-VIIA_crusII-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_317_left-VIIA_crusII-m.vtk",
+      "bytes": 61486,
+      "sha256": "6b45b557c93dbd29f68c7eea6427a9dc4966cead4bca4f0cf0bf247c62074899",
+      "gitBlobSha1": "52b195398ed8fe43ff23299213212653d046ef8f"
+    },
+    {
+      "path": "slicer/models/Model_318_left-VIIB-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_318_left-VIIB-m.vtk",
+      "bytes": 48350,
+      "sha256": "038982870deced04640bd77260af82bfa3032d933c84a2a4fa2a45c024aa9d61",
+      "gitBlobSha1": "c95b3cfff098855ad438ff2577b4bc4f50d81caf"
+    },
+    {
+      "path": "slicer/models/Model_319_left-VIIIA-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_319_left-VIIIA-m.vtk",
+      "bytes": 47486,
+      "sha256": "f99d5ea1a1334e71d88ca3e6ef288006b063e242598399af3b540a75ce8c8216",
+      "gitBlobSha1": "3a49669a3b8c75eda98f6d0ada77c0eb1f9753f3"
+    },
+    {
+      "path": "slicer/models/Model_320_left-VIIIB-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_320_left-VIIIB-m.vtk",
+      "bytes": 32544,
+      "sha256": "ec33ef1cd6b84571d3773642cc5cc374d737e7d196ebf8f48346fc85c1988124",
+      "gitBlobSha1": "490928c91c206285c86cf76bddde8bfe15c60add"
+    },
+    {
+      "path": "slicer/models/Model_321_left-IX-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_321_left-IX-m.vtk",
+      "bytes": 64726,
+      "sha256": "350ef5c4f3c1bf0ebbe8447515354a9eee8327e7250b8a4a47ceee32ecdc3039",
+      "gitBlobSha1": "b669f148d67cc1e899e94861846cd799fcf2c272"
+    },
+    {
+      "path": "slicer/models/Model_323_left-V-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_323_left-V-l.vtk",
+      "bytes": 60566,
+      "sha256": "79257903eccc54ec2295fc299a37032e96d0f59736b2f2a2f1ca23437bbf74c0",
+      "gitBlobSha1": "ba1d422c51aecf4c82a71870ee0e02a3721e64de"
+    },
+    {
+      "path": "slicer/models/Model_324_left-VI-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_324_left-VI-l.vtk",
+      "bytes": 139960,
+      "sha256": "1f1c487a80d4812c84143e8698acc6f8845e1c0a52e492bcbda73705e12cbf8d",
+      "gitBlobSha1": "99ae9deaae813aae10d7343f8778ac530cd6a475"
+    },
+    {
+      "path": "slicer/models/Model_327_left-VIIA_crusI-l1.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_327_left-VIIA_crusI-l1.vtk",
+      "bytes": 115727,
+      "sha256": "523f652aad42c166c3fd90f3f3d8b935a60d56e0c0907c825c41acd164aeceec",
+      "gitBlobSha1": "2812950858c9f5c093c52d33573187c46ac7b229"
+    },
+    {
+      "path": "slicer/models/Model_328_left-VIIA_crusII-l1.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_328_left-VIIA_crusII-l1.vtk",
+      "bytes": 64226,
+      "sha256": "24f2afbe67cebbbe507def29dcb5d7f53d396df32e0b8972c286d2efc923e31f",
+      "gitBlobSha1": "affbec7ed5d6d47e316c4a1d3b7b87be4b96ef37"
+    },
+    {
+      "path": "slicer/models/Model_329_left-VIIB-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_329_left-VIIB-l.vtk",
+      "bytes": 88514,
+      "sha256": "04e21bbc9f5a29a5ae65a58960df8ffdf58574aa0f8946956b668e722639d9cb",
+      "gitBlobSha1": "afa5f0cca5e8c1121ce86c68dbe0ad29fa79e1e1"
+    },
+    {
+      "path": "slicer/models/Model_330_left-VIIIA-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_330_left-VIIIA-l.vtk",
+      "bytes": 97427,
+      "sha256": "e0ce144c249e2977a7e41363d91c4887f7a8a438f880f60d0c80c27ff61cfd0a",
+      "gitBlobSha1": "1110571e991a6e9da79354ab3ac28efc5574edb0"
+    },
+    {
+      "path": "slicer/models/Model_331_left-VIIIB-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_331_left-VIIIB-l.vtk",
+      "bytes": 126912,
+      "sha256": "f23860173e9a3f739796860e24b7a90d3f326dc2f365c5d449d65ba01a8383e6",
+      "gitBlobSha1": "7383128404d4a53f9e44770df3b9dcb4a67792f2"
+    },
+    {
+      "path": "slicer/models/Model_332_left-VIIA_crusI-l2.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_332_left-VIIA_crusI-l2.vtk",
+      "bytes": 168636,
+      "sha256": "f103d41bd3dccd49dd7fdf4f3f6cca8f8d2552e807866a14c3c5631650049a8c",
+      "gitBlobSha1": "0d56569951a2ae534f8428c7a5a8cd7b40365707"
+    },
+    {
+      "path": "slicer/models/Model_333_left-VIIA_crusII-l2.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_333_left-VIIA_crusII-l2.vtk",
+      "bytes": 28352,
+      "sha256": "55a0fa1517cfc5145dcae89106938a7e360a3a622a4904a6ffd8cf23d3388693",
+      "gitBlobSha1": "805658c0bf7713410baf776de2a7db5e6c6114d5"
+    },
+    {
+      "path": "slicer/models/Model_334_right-I_II-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_334_right-I_II-v.vtk",
+      "bytes": 11999,
+      "sha256": "1f49d8c98240e0203f6939ccf15764e58062abd578e72fc1775dc8d16c6496d4",
+      "gitBlobSha1": "6957e7ca289742660fad4170d021d1f942ee25f2"
+    },
+    {
+      "path": "slicer/models/Model_335_right-III-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_335_right-III-v.vtk",
+      "bytes": 25244,
+      "sha256": "1d3e91e923f10bfd65bff4391070fac039989768e68f904f0a83153ca9b55ff2",
+      "gitBlobSha1": "591dc3d7de30086973d5b0317e94920b66ff7a87"
+    },
+    {
+      "path": "slicer/models/Model_336_right-IV-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_336_right-IV-v.vtk",
+      "bytes": 31584,
+      "sha256": "e07b2b6767a669f518a57b18ab466fa43e562beffc6c2afa2192dc3331162926",
+      "gitBlobSha1": "7255c88d37623e5137c874b076be9f2a291987ed"
+    },
+    {
+      "path": "slicer/models/Model_337_right-V-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_337_right-V-v.vtk",
+      "bytes": 31500,
+      "sha256": "fe704969f8c399ca2a6228caace49a3ef8cbe0534e54d89d1e4de0e97dd67a56",
+      "gitBlobSha1": "916056af862cab66303674ee4d5512839dcc39dd"
+    },
+    {
+      "path": "slicer/models/Model_338_right-VI-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_338_right-VI-v.vtk",
+      "bytes": 21072,
+      "sha256": "2944d578ef29f1603b3e4e4d24f166a6bdd27a62513a4ceab6e6d29844c7266f",
+      "gitBlobSha1": "53d76cc889d420351f8340f7227ab14be6950ce4"
+    },
+    {
+      "path": "slicer/models/Model_341_right-VIIB-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_341_right-VIIB-v.vtk",
+      "bytes": 8466,
+      "sha256": "f73be8931da6a263dcbf8442a27e9dbfb0ab872667e99e826e1c5de5b0b616e4",
+      "gitBlobSha1": "839f32303a1ca24e4b27c08f4ae77a4240aa6bf1"
+    },
+    {
+      "path": "slicer/models/Model_342_right-VIIIA-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_342_right-VIIIA-v.vtk",
+      "bytes": 15908,
+      "sha256": "2efd62b457b10b31801625375b27c73f8936743769375f14be44d24301bfb80e",
+      "gitBlobSha1": "acb4d68b0365addbeb1d30a1870a109469d3b6af"
+    },
+    {
+      "path": "slicer/models/Model_343_right-VIIIB-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_343_right-VIIIB-v.vtk",
+      "bytes": 8418,
+      "sha256": "27f2fd88f9d6b997680b091093532e50f8f4e77696046178691e2847e837e54e",
+      "gitBlobSha1": "a181496fc6390101cea5697c32981af2eab0941f"
+    },
+    {
+      "path": "slicer/models/Model_344_right-IX-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_344_right-IX-v.vtk",
+      "bytes": 10367,
+      "sha256": "773c9d72b99cf3ba7b71caf6819b8494edd61251633f85ccb3d02f5fdbc97826",
+      "gitBlobSha1": "b7608e492815f6bdaf1fdcd58e7f94b59ebab3f7"
+    },
+    {
+      "path": "slicer/models/Model_345_right-X-v.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_345_right-X-v.vtk",
+      "bytes": 7470,
+      "sha256": "6bddc4e99f3c0fae46ee4f6d1baa7c876dc25094274ea4458cceda5fad990d5e",
+      "gitBlobSha1": "8d14c00f245f8627cdca813c9d9d0f0cf8d69af2"
+    },
+    {
+      "path": "slicer/models/Model_346_right-III-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_346_right-III-m.vtk",
+      "bytes": 7570,
+      "sha256": "10e5bcb5b752559b0da6bfa730f8b6ee522efc6e3eff7bc27848631a599b743b",
+      "gitBlobSha1": "bd16d05d48d79f98b607025688b078bedf18524c"
+    },
+    {
+      "path": "slicer/models/Model_347_right-IV-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_347_right-IV-m.vtk",
+      "bytes": 34284,
+      "sha256": "23b462a2f5e4dfb35d47208006cd0e307968429b1934f1dc099784eb3b4aa29e",
+      "gitBlobSha1": "518d0ddb886a02061498c4666e75e7240fe997ed"
+    },
+    {
+      "path": "slicer/models/Model_348_right-V-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_348_right-V-m.vtk",
+      "bytes": 46130,
+      "sha256": "d0a155e180a08e2e27323678c04baec6516c20b424c30a20fa6e6b0a80bb49a9",
+      "gitBlobSha1": "2152531a2b459318dc84e5b564b470b2cb674a9b"
+    },
+    {
+      "path": "slicer/models/Model_349_right-VI-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_349_right-VI-m.vtk",
+      "bytes": 65314,
+      "sha256": "7fc9e8a52a3609573709e2271b46fb03162c125ebc60aa87ae72aa09f977698f",
+      "gitBlobSha1": "62514c73f1479836d2318849cc542641d2c16dee"
+    },
+    {
+      "path": "slicer/models/Model_350_right-VIIA_crusI-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_350_right-VIIA_crusI-m.vtk",
+      "bytes": 47534,
+      "sha256": "19ff08a4e31bc80a1b71f4b8ec3af06511b76efeb687d1875e201d0e54019289",
+      "gitBlobSha1": "8e2cb5c7abe7e965d2ae09208ea5e9cffa7c874b"
+    },
+    {
+      "path": "slicer/models/Model_351_right-VIIA_crusII-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_351_right-VIIA_crusII-m.vtk",
+      "bytes": 41738,
+      "sha256": "9a24626386f40774bf1eb2ba6aae58cbcd512e379e7ec93ef3cc1ef854c91258",
+      "gitBlobSha1": "9f11ce697aef11177a80ddb4e86e443f84650243"
+    },
+    {
+      "path": "slicer/models/Model_352_right-VIIB-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_352_right-VIIB-m.vtk",
+      "bytes": 36502,
+      "sha256": "08982a90963ed1b4dcc762271c9eccf41ef23b950359d702f1772206d294d0f1",
+      "gitBlobSha1": "83b78236ad04b075560bb6fd97eff4dc9f19a1d7"
+    },
+    {
+      "path": "slicer/models/Model_353_right-VIIIA-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_353_right-VIIIA-m.vtk",
+      "bytes": 53234,
+      "sha256": "4638efcc97e41c7ae658ff11f79d362f930c9358c85d7edd49be549993d4757a",
+      "gitBlobSha1": "92fad5017d730856066141891176b797865adcb4"
+    },
+    {
+      "path": "slicer/models/Model_354_right-VIIIB-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_354_right-VIIIB-m.vtk",
+      "bytes": 67654,
+      "sha256": "5fcbbff793fcc96e12680407dd49a64cdb468d1c2a3f0f63336f4b4af93ca29e",
+      "gitBlobSha1": "f6fa0c030053fccddaa8f8b6529fc6f0f068b331"
+    },
+    {
+      "path": "slicer/models/Model_355_right-IX-m.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_355_right-IX-m.vtk",
+      "bytes": 51106,
+      "sha256": "f720462546f987c6f64a9b90a11e9ed3d377a6a90c84053396c02e7c9a67384a",
+      "gitBlobSha1": "d2a4608a7c2ec7daf11d1986ae81c7b7d3a6e7ef"
+    },
+    {
+      "path": "slicer/models/Model_357_right-V-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_357_right-V-l.vtk",
+      "bytes": 58322,
+      "sha256": "fa799f38b75b5f2dd7f85704824722585be355cfb57aaeb517d05b3a8e369280",
+      "gitBlobSha1": "d5a699e7c63d48f97f300a33fb8c9ce6af021e83"
+    },
+    {
+      "path": "slicer/models/Model_358_right-VI-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_358_right-VI-l.vtk",
+      "bytes": 133128,
+      "sha256": "a02baa31d439679482a9cd6c4289bc66965adf23291916bdd712eb6bc663fb6c",
+      "gitBlobSha1": "9b598484dfb7c3e6ee56313f1bd5d4f8ee15e723"
+    },
+    {
+      "path": "slicer/models/Model_35_pons.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_35_pons.vtk",
+      "bytes": 178768,
+      "sha256": "b0d5806f080f45f5ac57ad5ec550b4ea960af114b7cf8e501c87a9b6d952bf04",
+      "gitBlobSha1": "a64fc56bd9cfa4ed20b700741ea9c967563c17b6"
+    },
+    {
+      "path": "slicer/models/Model_361_right-VIIA_crusI-l1.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_361_right-VIIA_crusI-l1.vtk",
+      "bytes": 117891,
+      "sha256": "e91c3389e422f83f18471cebd4e10ffaf166c2c8f6395fc62da9647c6b7d49ea",
+      "gitBlobSha1": "faad9ca3461a9cea52df97d9fa892b293814bc6b"
+    },
+    {
+      "path": "slicer/models/Model_362_right-VIIA_crusII-l1.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_362_right-VIIA_crusII-l1.vtk",
+      "bytes": 60430,
+      "sha256": "6e4122e79c1a7ef300839f9d0ca4b4fabd54701d338f545d7ca61f4f3b07e2df",
+      "gitBlobSha1": "a3e8ae3522423c37dc171433687ad0eb849dfcc8"
+    },
+    {
+      "path": "slicer/models/Model_363_right-VIIB-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_363_right-VIIB-l.vtk",
+      "bytes": 48598,
+      "sha256": "968ddfc006a73ca36dd78b4d1a82bdd9f7edd3482afde6881c6b37be713f7309",
+      "gitBlobSha1": "bc3f66d4549280f13f577b509ff083745e6adbac"
+    },
+    {
+      "path": "slicer/models/Model_364_right-VIIIA-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_364_right-VIIIA-l.vtk",
+      "bytes": 78014,
+      "sha256": "ab5edcd575d2576f8bd327c17cf550399b64b7a8f84ca291bcc288c857852785",
+      "gitBlobSha1": "52080d183f41140dad0f0e6831b4643a4e136959"
+    },
+    {
+      "path": "slicer/models/Model_365_right-VIIIB-l.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_365_right-VIIIB-l.vtk",
+      "bytes": 82034,
+      "sha256": "8d8cc2c79acdcd3de9f1e18c0f7f2b04a07ce8fb1cc9d057aa947b9029ad925c",
+      "gitBlobSha1": "4e07b311ab27493fe0b6c16c6fd8c01c6f8a9d35"
+    },
+    {
+      "path": "slicer/models/Model_366_right-VIIA_crusI-l2.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_366_right-VIIA_crusI-l2.vtk",
+      "bytes": 154456,
+      "sha256": "136380434208a2873ed672ff7f8b81f5e766d51a85885ad20c4d0cb1e2d9fd2f",
+      "gitBlobSha1": "a5a2dcc1380a8f19e31c5c0e7b0d6b68e25a7162"
+    },
+    {
+      "path": "slicer/models/Model_367_right-VIIA_crusII-l2.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_367_right-VIIA_crusII-l2.vtk",
+      "bytes": 51406,
+      "sha256": "651b759d0a84300eaca28fe68fbe232ca8981d3e4300f43da4f314371972eec5",
+      "gitBlobSha1": "ba9ef006d801d7fbc98f68732849b0a79e310a76"
+    },
+    {
+      "path": "slicer/models/Model_371_left-Dentate-nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_371_left-Dentate-nucleus.vtk",
+      "bytes": 50222,
+      "sha256": "c59c2da15d097c5690833ffe19f759444a554c016d762b4f761a8ef9208bd173",
+      "gitBlobSha1": "73c3bc91280bc85db2b6a5e6e5877179d003c9aa"
+    },
+    {
+      "path": "slicer/models/Model_373_left-FaGE_nuclei.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_373_left-FaGE_nuclei.vtk",
+      "bytes": 23984,
+      "sha256": "733eb1e9fb576e72bea56ef9f0380e7d1c6015a0e206f82615faeec8b824e636",
+      "gitBlobSha1": "da9061b63774fac578a94af9dc01a021db49ad3f"
+    },
+    {
+      "path": "slicer/models/Model_375_right-Dentate-nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_375_right-Dentate-nucleus.vtk",
+      "bytes": 51962,
+      "sha256": "13b6b2f2c2b5e8e01545dafc161c332a47ebcf53818a0a9ef062be9c0565caf1",
+      "gitBlobSha1": "2c337d5844fa2b082af7c65e4f513c7e367b226c"
+    },
+    {
+      "path": "slicer/models/Model_377_right-FaGE_nuclei.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_377_right-FaGE_nuclei.vtk",
+      "bytes": 22304,
+      "sha256": "0ca3b613361dd1713df500ee2e42986e89374f900d664f7566597ea84958ef1e",
+      "gitBlobSha1": "2b2e97b609ca5491425f7eb7819418bb92c54634"
+    },
+    {
+      "path": "slicer/models/Model_380_left_anterior_superior_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_380_left_anterior_superior_hypothalamus.vtk",
+      "bytes": 4486,
+      "sha256": "b65ad44faf543cbd6c0afa7e0534d6d95f102ebefd16d944ad0471a861adb81b",
+      "gitBlobSha1": "7bb036430be82a733811203ecbef4e30b8ecbdbc"
+    },
+    {
+      "path": "slicer/models/Model_381_left_anterior_inferior_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_381_left_anterior_inferior_hypothalamus.vtk",
+      "bytes": 2660,
+      "sha256": "a6f6d114634cebeced17e39c33cef9a30654e719826c3bd7b305b461738146e6",
+      "gitBlobSha1": "f9a6080506d20f24c94568b69a48ac57efddf8d6"
+    },
+    {
+      "path": "slicer/models/Model_382_left_superior_tuberal_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_382_left_superior_tuberal_hypothalamus.vtk",
+      "bytes": 11747,
+      "sha256": "f5c2e4dc480a9b0fab4acb93f4c24efa75eefc7bb094516e23cf9aa8cc4f8453",
+      "gitBlobSha1": "649b010abd146df86464a83ad42a4397bbf56f2a"
+    },
+    {
+      "path": "slicer/models/Model_383_left_inferior_tuberal_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_383_left_inferior_tuberal_hypothalamus.vtk",
+      "bytes": 10067,
+      "sha256": "2130650339fff2e7bd33c3d2a3542d594bd9b15eb474bb694d3ee9d67b8d28f7",
+      "gitBlobSha1": "37664fe091005344906ed10ed7cd0f9533449f90"
+    },
+    {
+      "path": "slicer/models/Model_384_left_posterior_superior_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_384_left_posterior_superior_hypothalamus.vtk",
+      "bytes": 8254,
+      "sha256": "3b93c8f9d48427530e1260fbe0b1f226a599906146e535376670ffa33a9a9cb4",
+      "gitBlobSha1": "8cee60b9c5e7b6291908e9fe400662f276e0605c"
+    },
+    {
+      "path": "slicer/models/Model_385_right_anterior_superior_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_385_right_anterior_superior_hypothalamus.vtk",
+      "bytes": 3148,
+      "sha256": "af2b965a82b148d8cbe96b0df14bf783d612bb639f7d603020ef37c79b2a74c4",
+      "gitBlobSha1": "4162ea9d563e38c32d077eba11760a93712a8d46"
+    },
+    {
+      "path": "slicer/models/Model_386_right_anterior_inferior_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_386_right_anterior_inferior_hypothalamus.vtk",
+      "bytes": 2968,
+      "sha256": "e6c7ab3940c998f67c4fb007d23d0947b7c7e428ecfe61888b39d4a983137622",
+      "gitBlobSha1": "c574153784b5cf28ae0ca82fb96eab6940b710d1"
+    },
+    {
+      "path": "slicer/models/Model_387_right_superior_tuberal_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_387_right_superior_tuberal_hypothalamus.vtk",
+      "bytes": 10907,
+      "sha256": "8ba9c257160d28335aa03c15334055e7c4aeae65394bd921f6859431f3091701",
+      "gitBlobSha1": "9b8dc42805cc1e3ecdbe6a46ec4d122ff96905eb"
+    },
+    {
+      "path": "slicer/models/Model_388_right_inferior_tuberal_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_388_right_inferior_tuberal_hypothalamus.vtk",
+      "bytes": 10687,
+      "sha256": "4afb51efe76b731958ce9149dfa89410856af21253415c01bceeeff56dc9c5ff",
+      "gitBlobSha1": "962c99d1a3fb1602f1b9b36b119ee0f92e8a88eb"
+    },
+    {
+      "path": "slicer/models/Model_389_right_posterior_superior_hypothalamus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_389_right_posterior_superior_hypothalamus.vtk",
+      "bytes": 5790,
+      "sha256": "1a065a2781ee965716a95e43cbbf0a477c402620ba86defb81d9b6b46bec53ac",
+      "gitBlobSha1": "943e16e11ca01542a6fdcb3a3b250e4aa3d19ac9"
+    },
+    {
+      "path": "slicer/models/Model_390_right_subthalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_390_right_subthalamic_nucleus.vtk",
+      "bytes": 2644,
+      "sha256": "03a509470901910a988ce9f48328285f62b393793f93ca90938fdb7419aea274",
+      "gitBlobSha1": "2e3295862fbea0a75072f076e8f137bacb51264c"
+    },
+    {
+      "path": "slicer/models/Model_391_left_subthalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_391_left_subthalamic_nucleus.vtk",
+      "bytes": 2824,
+      "sha256": "282854ae962713ea667a20a97a51aa8e6eb607ee6064998e9e83a3de0417ebe9",
+      "gitBlobSha1": "e628baaf63b815406a77da625d0ac84719b88526"
+    },
+    {
+      "path": "slicer/models/Model_40_part_of_midbrain.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_40_part_of_midbrain.vtk",
+      "bytes": 227716,
+      "sha256": "9a814fc5cd287ef92de8977023c98b5a16c80046e1c53bddac4e2ce906a1b0cc",
+      "gitBlobSha1": "caed8ff82f960e01833a036171eb556deb0785c4"
+    },
+    {
+      "path": "slicer/models/Model_41_white_matter_of_right_cerebral_hemisphere.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_41_white_matter_of_right_cerebral_hemisphere.vtk",
+      "bytes": 4386774,
+      "sha256": "8be8133abe8d4e46b9b386983c146bc861c0ed16d1f6949688f23fe4de061ad2",
+      "gitBlobSha1": "884e3a01f43f2e33024eb9cd4c53d03e25a4a529"
+    },
+    {
+      "path": "slicer/models/Model_43_right_lateral_ventricle.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_43_right_lateral_ventricle.vtk",
+      "bytes": 186396,
+      "sha256": "38a6d824b1d36c81aef69cdc67ce3f559014eeb801527c87509d6bf41df4e999",
+      "gitBlobSha1": "616e37f4094ed500255aab9b3ce280af3e232046"
+    },
+    {
+      "path": "slicer/models/Model_44_temporal_horn_of_right_lateral_ventricle.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_44_temporal_horn_of_right_lateral_ventricle.vtk",
+      "bytes": 44222,
+      "sha256": "5318206cf7a933d265e9e44e31146b2b0731b4eb81baa2d30baefe6a6534d39f",
+      "gitBlobSha1": "838e040b0b90648dff5b0301c6303b9ff49dd375"
+    },
+    {
+      "path": "slicer/models/Model_46_white_matter_of_right_hemisphere_of_cerebellum.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_46_white_matter_of_right_hemisphere_of_cerebellum.vtk",
+      "bytes": 360196,
+      "sha256": "58dcee17a1f0002b73b24ca9c90c4d310ad78b853a07ad54066312a79c61beaf",
+      "gitBlobSha1": "a134ceae3f86a913a543388c8a079fded5d74cfe"
+    },
+    {
+      "path": "slicer/models/Model_4_left_lateral_ventricle.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_4_left_lateral_ventricle.vtk",
+      "bytes": 206196,
+      "sha256": "b464dd73aaff185cfe7f16cf25470d9c41fbbc73a8fc3982c5cf3a919c9f467e",
+      "gitBlobSha1": "60b71d3ba7ea7e7f165951b8a6d3a7e5ab31d8e2"
+    },
+    {
+      "path": "slicer/models/Model_5001_left_calcarine_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5001_left_calcarine_sulcus.vtk",
+      "bytes": 140632,
+      "sha256": "751c35460851dfa0b47ab422f1cecc9dca4eeaafa947f47b6a397dbb52d7a239",
+      "gitBlobSha1": "9467b0c1c17eac0aff0583f022eec045d009a030"
+    },
+    {
+      "path": "slicer/models/Model_5002_right_calcarine_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5002_right_calcarine_sulcus.vtk",
+      "bytes": 117592,
+      "sha256": "cef6dae6cf45b545f30c6b16c7664b30a6cec7aa13cae7925aa412b966768517",
+      "gitBlobSha1": "a2fd222043ef6ebd8f5cd3323997ffabcf2f5065"
+    },
+    {
+      "path": "slicer/models/Model_5003_left_central_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5003_left_central_sulcus.vtk",
+      "bytes": 163672,
+      "sha256": "ad176daec45a818f6439c31e5f223a41bfb8318ed8eb592143913b94d3c5e91a",
+      "gitBlobSha1": "707a66a5b3f8d62f33133339c33a6af13f5c2b5f"
+    },
+    {
+      "path": "slicer/models/Model_5004_right_central_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5004_right_central_sulcus.vtk",
+      "bytes": 188152,
+      "sha256": "5ce3091dd94fc1a9a586a686b4169fe41c833fb5743c1771a51c7628d2c5bf98",
+      "gitBlobSha1": "e43e4ed2c7a00c5a63c5d7e2a0a36fc7378f5895"
+    },
+    {
+      "path": "slicer/models/Model_5005_left_cingulate_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5005_left_cingulate_sulcus.vtk",
+      "bytes": 215512,
+      "sha256": "7949eb1570c703f753a8f5b2b8d0774cf9dca1defa91204026711b21327d5f7a",
+      "gitBlobSha1": "77415c13c8b2819d268d9dd23d71b647e41a5757"
+    },
+    {
+      "path": "slicer/models/Model_5006_right_cingulate_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5006_right_cingulate_sulcus.vtk",
+      "bytes": 270232,
+      "sha256": "ead2a7976d6986967c9fb13aaf196fa1df8b55071adcee4e902775dd2e370088",
+      "gitBlobSha1": "db840c96a7e93448bad68ba7418568729786e928"
+    },
+    {
+      "path": "slicer/models/Model_5007_left_collateral_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5007_left_collateral_sulcus.vtk",
+      "bytes": 147832,
+      "sha256": "cd3642776baabe368fb6030f4c1077443e34828f769544e9c3fa366937fac857",
+      "gitBlobSha1": "84d8f523b5039e8c9edeb39fe9deeb1a25358f3d"
+    },
+    {
+      "path": "slicer/models/Model_5008_right_collateral_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5008_right_collateral_sulcus.vtk",
+      "bytes": 96992,
+      "sha256": "fdf3b0b758b5a8c8b2001a5dc067eccaf78f6d12d075c0f3111f5dc42ecc2e31",
+      "gitBlobSha1": "dee46250d49972be846d29e71d87dd7247e079a2"
+    },
+    {
+      "path": "slicer/models/Model_5009_left_inferior_frontal_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5009_left_inferior_frontal_sulcus.vtk",
+      "bytes": 91871,
+      "sha256": "e6985c41829817e7f0ff796a88e49aeb8df2e44d00d2d48b3a89afca049b243e",
+      "gitBlobSha1": "23b26bc321f47b37141bb7dea35ff11f18fd7268"
+    },
+    {
+      "path": "slicer/models/Model_500_right_internal_medullary_lamina.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_500_right_internal_medullary_lamina.vtk",
+      "bytes": 38422,
+      "sha256": "725f465718ee43d7e7e73d24721a40d09f5cc26d48ccb6e219ca251c5ad2f4fe",
+      "gitBlobSha1": "9d3150b5056cba63b2601b7c9e8d1876782f22b1"
+    },
+    {
+      "path": "slicer/models/Model_5010_right_inferior_frontal_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5010_right_inferior_frontal_sulcus.vtk",
+      "bytes": 47788,
+      "sha256": "0db9ef2071012c070666f55b60b53990fcfdf626d50622944fc226a645701e32",
+      "gitBlobSha1": "4c33a95552d6b531acb21da58c5c1f6d47c22c56"
+    },
+    {
+      "path": "slicer/models/Model_5011_left_intraparietal_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5011_left_intraparietal_sulcus.vtk",
+      "bytes": 208952,
+      "sha256": "3b5e05db8b342be70a85ade2e76d3acefad3f006705eaf2a89d6312a46fa7444",
+      "gitBlobSha1": "588eb7c84415db2febb5618bf9748c4ddbeb51be"
+    },
+    {
+      "path": "slicer/models/Model_5012_right_intraparietal_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5012_right_intraparietal_sulcus.vtk",
+      "bytes": 132192,
+      "sha256": "abb2df96ab34d6e55e96273c68a529405d095950607886cba5f6996bada71294",
+      "gitBlobSha1": "1e70e94e8093c077f91ef95d2f7d5b363ff60c3c"
+    },
+    {
+      "path": "slicer/models/Model_5013_left_parieto-occipital_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5013_left_parieto-occipital_sulcus.vtk",
+      "bytes": 73951,
+      "sha256": "632ee24abc6fe6a716d98bef67a3a518bdbd3343efc8beeaa173bf8d803f0581",
+      "gitBlobSha1": "aaa0530c99b9d3a7a59cb70afae3365ef4e53d98"
+    },
+    {
+      "path": "slicer/models/Model_5014_right_parieto-occipital_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5014_right_parieto-occipital_sulcus.vtk",
+      "bytes": 92672,
+      "sha256": "881aa597aabbc3903dd2012e7a243569425fdb9f584df81a9bec0301356c6a36",
+      "gitBlobSha1": "2e7e2100b225608cc5216af525969bbed258f21f"
+    },
+    {
+      "path": "slicer/models/Model_5015_left_postcentral_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5015_left_postcentral_sulcus.vtk",
+      "bytes": 209952,
+      "sha256": "cdf67841ad2638629cc9be514339fa871cf38890452023bf1d03436537a5db59",
+      "gitBlobSha1": "f2ebc4428bc14d90d7033dfb44590eeef45d2736"
+    },
+    {
+      "path": "slicer/models/Model_5016_right_postcentral_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5016_right_postcentral_sulcus.vtk",
+      "bytes": 153592,
+      "sha256": "67d80b15cad641ac62c02227b3fc7c4c324bca43a6959d91802aa8b575e42b40",
+      "gitBlobSha1": "d63431722f56c7833bbd71fac9f42b1ae1327740"
+    },
+    {
+      "path": "slicer/models/Model_5017_left_precentral_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5017_left_precentral_sulcus.vtk",
+      "bytes": 147792,
+      "sha256": "a21b58f640775c5f84ca5e797ec2e6c217afd40ceb1baa1235a80a0205ed4d2f",
+      "gitBlobSha1": "ebd55f25e6c1e5c8a4bd0a0a24f7333431d59348"
+    },
+    {
+      "path": "slicer/models/Model_5018_right_precentral_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5018_right_precentral_sulcus.vtk",
+      "bytes": 111792,
+      "sha256": "3d58662a2f510b90e8bc43545b1794109c60bd724d6dea3241e54f83c278591e",
+      "gitBlobSha1": "a5727d2e36222a3ee80ea96e2897fcc1d9a5fd4f"
+    },
+    {
+      "path": "slicer/models/Model_5019_left_superior_frontal_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5019_left_superior_frontal_sulcus.vtk",
+      "bytes": 149272,
+      "sha256": "c8b0234a4ceba803b5c7c6bb3809da54b500156fef5d4c642f7959d9829c1806",
+      "gitBlobSha1": "95ed3e0c3f8c50282e39e2378adc6229c232d3c1"
+    },
+    {
+      "path": "slicer/models/Model_501_left_internal_medullary_lamina.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_501_left_internal_medullary_lamina.vtk",
+      "bytes": 38570,
+      "sha256": "9017078d59f1fbc2b986543fac99d1c70c5b57d6bfe1f8d6f0920b068da93d28",
+      "gitBlobSha1": "95c3f4076ffc7909db71987d2e39c76047cd8d04"
+    },
+    {
+      "path": "slicer/models/Model_5020_right_superior_frontal_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5020_right_superior_frontal_sulcus.vtk",
+      "bytes": 144952,
+      "sha256": "82ef0cfad1ab2c8bbb049cf91367a28904bd524ea5d51f6f08ad72149c70793b",
+      "gitBlobSha1": "c0707680750ebd7fc8f1fa87933155d94045fafe"
+    },
+    {
+      "path": "slicer/models/Model_5021_left_superior_temporal_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5021_left_superior_temporal_sulcus.vtk",
+      "bytes": 145152,
+      "sha256": "481a7da5fa7b75806fffd9084647053f2b310e5319ca067a40c81a506875cbf3",
+      "gitBlobSha1": "7555929ded5d3c01fb88025d425901e370c88256"
+    },
+    {
+      "path": "slicer/models/Model_5022_right_superior_temporal_sulcus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5022_right_superior_temporal_sulcus.vtk",
+      "bytes": 146392,
+      "sha256": "8aebfd8e4bb588023ec7d4bf2bc67cc550199d18aac2d54ebdab156f325b3a66",
+      "gitBlobSha1": "0ff0891519396fed2562e1e22594233690bf30aa"
+    },
+    {
+      "path": "slicer/models/Model_502_right_medial_geniculate_body.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_502_right_medial_geniculate_body.vtk",
+      "bytes": 7230,
+      "sha256": "6387dfb48d7777231a08cdc5fe67701688ba3f44195d9718d8859f1b65f2e567",
+      "gitBlobSha1": "632130dfa2690676e84e1a2e58503f4c9ba53a9e"
+    },
+    {
+      "path": "slicer/models/Model_503_left_medial_geniculate_body.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_503_left_medial_geniculate_body.vtk",
+      "bytes": 7114,
+      "sha256": "efb3da4991ec74054aae924215759f4c50f57bf83d2954c18f93c3658c34cf3e",
+      "gitBlobSha1": "c67080d81eb67bb154b8958c94bf4542536ba916"
+    },
+    {
+      "path": "slicer/models/Model_504_right_lateral_geniculate_body.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_504_right_lateral_geniculate_body.vtk",
+      "bytes": 9034,
+      "sha256": "562677d48a49828a732391f3b7d033c47dff1c6484ac7d419adf1d411798d338",
+      "gitBlobSha1": "f614a6fc17e89b4e274200a90470c846363862c6"
+    },
+    {
+      "path": "slicer/models/Model_505_left_lateral_geniculate_body.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_505_left_lateral_geniculate_body.vtk",
+      "bytes": 10007,
+      "sha256": "39915964bd6c27732dbfcef411834f9ee3564f201acbb41b31033d5bc07bdec0",
+      "gitBlobSha1": "3996cc23baaf99ee072493dd02b9ac0538839b4e"
+    },
+    {
+      "path": "slicer/models/Model_506_right_pulvinar.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_506_right_pulvinar.vtk",
+      "bytes": 44758,
+      "sha256": "e647ae4337b3a12f461b7058a185bc7e601c8ab430e023095f2a3dc0400a7ce1",
+      "gitBlobSha1": "8c5d749d54ea824e8edac8bf7c15e25f0a8bb63d"
+    },
+    {
+      "path": "slicer/models/Model_507_left_pulvinar.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_507_left_pulvinar.vtk",
+      "bytes": 49054,
+      "sha256": "f40b6fb158b1424cbb54107666a27548665be816718692b1b17df8d0afcba17a",
+      "gitBlobSha1": "0c826e292d8ee5726d398aff39eb94596ce123aa"
+    },
+    {
+      "path": "slicer/models/Model_508_right_anterior_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_508_right_anterior_thalamic_nucleus.vtk",
+      "bytes": 11971,
+      "sha256": "d425d8a3e01254150f93dbaf6cbbb8cc0815143ec39e866786c660f60a67a8ee",
+      "gitBlobSha1": "5699d0d30d0eeabc2951c3735849cbb4147891cd"
+    },
+    {
+      "path": "slicer/models/Model_509_left_anterior_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_509_left_anterior_thalamic_nucleus.vtk",
+      "bytes": 11423,
+      "sha256": "acb0fc9b523186e146d93ce8833276e9889ea455ab7b19812810b66066a5a392",
+      "gitBlobSha1": "afc82cd2e58fed97c241a12440985f33699b2470"
+    },
+    {
+      "path": "slicer/models/Model_50_right_caudate_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_50_right_caudate_nucleus.vtk",
+      "bytes": 118948,
+      "sha256": "3ac7a5f5be289ea26eed69197b4dff95077c542b79481f5620cccbef59d30fe7",
+      "gitBlobSha1": "cfaf8273bde8bcb2dfeae806c93360722ce76ce3"
+    },
+    {
+      "path": "slicer/models/Model_510_right_dorsomedial_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_510_right_dorsomedial_thalamic_nucleus.vtk",
+      "bytes": 26036,
+      "sha256": "7db4085bcd06881762686d16cffd0198a60b6a7f5b66e9f3d5f0670e688a9caa",
+      "gitBlobSha1": "8a4d81b9945b9be119d0cb174b8450ccbeb77f45"
+    },
+    {
+      "path": "slicer/models/Model_511_left_dorsomedial_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_511_left_dorsomedial_thalamic_nucleus.vtk",
+      "bytes": 25676,
+      "sha256": "7de19b779308a3958b32006f975019887f2ceb2974b4b6a49201a22806753f6c",
+      "gitBlobSha1": "a57e9ec0ec3533dbfc4ef9bb816aa49e484f700c"
+    },
+    {
+      "path": "slicer/models/Model_512_right_centromedian_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_512_right_centromedian_thalamic_nucleus.vtk",
+      "bytes": 10531,
+      "sha256": "3aa04bd7aeec2ec6bf6751fe232bb74507143a7e1d794a7a237d1792f49df582",
+      "gitBlobSha1": "c5bfd9ae6e2b0fbff6e7adceb686a66e4afdc2b0"
+    },
+    {
+      "path": "slicer/models/Model_513_left_centromedian_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_513_left_centromedian_thalamic_nucleus.vtk",
+      "bytes": 12059,
+      "sha256": "0a6372fd11f95365949cb61f195ae2d582a23d018dc2054e4700655db643cad4",
+      "gitBlobSha1": "da858a017f9f098beac6804666c42b4f326f2344"
+    },
+    {
+      "path": "slicer/models/Model_514_right_ventral_anterior_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_514_right_ventral_anterior_thalamic_nucleus.vtk",
+      "bytes": 23204,
+      "sha256": "ded5f48ebbd20c8cf9eca7d067ec4a99b68e8bf49dfda6fbe34d1f59592f9649",
+      "gitBlobSha1": "f74118f1dfe9f12395ec47ae1436896b73d03cca"
+    },
+    {
+      "path": "slicer/models/Model_515_left_ventral_anterior_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_515_left_ventral_anterior_thalamic_nucleus.vtk",
+      "bytes": 22800,
+      "sha256": "1c4ace957d80dc61005a22edcbad3c26c606ff0afa645544e9fb471cfff29f90",
+      "gitBlobSha1": "ab32069964c80b6114d815b6dac9541b2ae0cfca"
+    },
+    {
+      "path": "slicer/models/Model_516_right_ventral_lateral_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_516_right_ventral_lateral_thalamic_nucleus.vtk",
+      "bytes": 27236,
+      "sha256": "003ccb9bd11193d4039a866e4c62e09472cf9f2b5a194483e6d4c0657f102ffb",
+      "gitBlobSha1": "f8a9f2d4c4ef91431a52cf2aad3baef47b772158"
+    },
+    {
+      "path": "slicer/models/Model_517_left_ventral_lateral_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_517_left_ventral_lateral_thalamic_nucleus.vtk",
+      "bytes": 29220,
+      "sha256": "4964aee1c52ff6fa702b85860b600cbfd37ab2a90ec8ba74dd412f52a3003044",
+      "gitBlobSha1": "2d6e068e7591e9afe0867df9e1b2077e14ddc987"
+    },
+    {
+      "path": "slicer/models/Model_518_right_lateral_posterior_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_518_right_lateral_posterior_thalamic_nucleus.vtk",
+      "bytes": 21096,
+      "sha256": "9c449f13e9aeb00640a2a78f28248556755c70b62b37b5e351af3f8e8e995453",
+      "gitBlobSha1": "0d88401d744625849028a5872447a51aeaf266f6"
+    },
+    {
+      "path": "slicer/models/Model_519_left_lateral_posterior_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_519_left_lateral_posterior_thalamic_nucleus.vtk",
+      "bytes": 25140,
+      "sha256": "4ee57c475f9a4a76484e4a9b48bf9215245a7ce6f7dc02f1b257c4b284b044eb",
+      "gitBlobSha1": "76f8ca275811321bf4cdaac02fe8b862f03e0b87"
+    },
+    {
+      "path": "slicer/models/Model_51_right_putamen.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_51_right_putamen.vtk",
+      "bytes": 99707,
+      "sha256": "8634d54a15c963890d7682654be74beadfd984ed147e5c3a6fbf811cfc354d4a",
+      "gitBlobSha1": "e7c56310a74e152acb7fd7f641efb5a419a7f0e1"
+    },
+    {
+      "path": "slicer/models/Model_520_right_lateral_dorsal_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_520_right_lateral_dorsal_thalamic_nucleus.vtk",
+      "bytes": 5658,
+      "sha256": "6210fbc9b84351d833454cad9312d6d35af85b981743044ff4de5148adabe944",
+      "gitBlobSha1": "6f0334432d25a4e0904b3cee2f1a10e55d767894"
+    },
+    {
+      "path": "slicer/models/Model_521_left_lateral_dorsal_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_521_left_lateral_dorsal_thalamic_nucleus.vtk",
+      "bytes": 9527,
+      "sha256": "58568f9e3e7381de8f122c9e509ede24b0f79f1f0854a4ca1323a6faa88187d9",
+      "gitBlobSha1": "6f9a5c355e1e00049d5c999c5e77397fa9c436d5"
+    },
+    {
+      "path": "slicer/models/Model_522_right_ventral_posteromedial_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_522_right_ventral_posteromedial_thalamic_nucleus.vtk",
+      "bytes": 12408,
+      "sha256": "1957421208ff52c4338a8344e9eee4768077fa56eef30f4dbc9a3c0f7d16b3ff",
+      "gitBlobSha1": "99c8f6348b5457ed022538a710b4ecdfe82897e8"
+    },
+    {
+      "path": "slicer/models/Model_523_left_ventral_posteromedial_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_523_left_ventral_posteromedial_thalamic_nucleus.vtk",
+      "bytes": 10003,
+      "sha256": "7acd3328742c00116ecbc3875d7b072f9b9896a2195464a66097641694e32f9c",
+      "gitBlobSha1": "0da4cfe22dbeffd9c113eb0c6ff4ebd4ca608944"
+    },
+    {
+      "path": "slicer/models/Model_524_right_ventral_posterolateral_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_524_right_ventral_posterolateral_thalamic_nucleus.vtk",
+      "bytes": 30032,
+      "sha256": "474cdb0aa00535c7098b4903ca71576d437e57f435799f22b2a1fb2b48c3b440",
+      "gitBlobSha1": "1b2b9908dd1aea8d4706fd7134749080e2dff924"
+    },
+    {
+      "path": "slicer/models/Model_525_left_ventral_posterolateral_thalamic_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_525_left_ventral_posterolateral_thalamic_nucleus.vtk",
+      "bytes": 29796,
+      "sha256": "cc0612eb32ccbc3f85031c0cba81ba52319136ae0b2fdf03cad30833d96dbff0",
+      "gitBlobSha1": "d92e94a198965dffdc0d88f3879b8c463cd70275"
+    },
+    {
+      "path": "slicer/models/Model_52_right_globus_pallidus_pars_externa.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_52_right_globus_pallidus_pars_externa.vtk",
+      "bytes": 40418,
+      "sha256": "85ccbc9d7330956d17fa23f6e0315e79924a82806da3c7533ce940c4fa2f57b9",
+      "gitBlobSha1": "3d3d0a5f16916f1e38f3d3a0c3ebabf6a2bbe641"
+    },
+    {
+      "path": "slicer/models/Model_53_right_hippocampus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_53_right_hippocampus.vtk",
+      "bytes": 95879,
+      "sha256": "b9cdae96d639e1c1505c55d70bfa909f6e2047a1f511b5361ea5a9fdd3cfa644",
+      "gitBlobSha1": "f96c02ca3288d95f3f41cbf8115aadb25bcc5be2"
+    },
+    {
+      "path": "slicer/models/Model_54_right_amygdala.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_54_right_amygdala.vtk",
+      "bytes": 44114,
+      "sha256": "1426fd3c4bbb9f41fbad0770b893ffe677d152a4158d527dd1ba28d16a5f7256",
+      "gitBlobSha1": "cbbeedf43c3ed5cba86a88491cfdb0fc50f7e7df"
+    },
+    {
+      "path": "slicer/models/Model_58_right_nucleus_accumbens.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_58_right_nucleus_accumbens.vtk",
+      "bytes": 28008,
+      "sha256": "ff7dd3f1f66c2eeb74f4507158ffbbabfa4273f2a3355136ed093f06362c117e",
+      "gitBlobSha1": "9f6f4eae45f7c8f06aa70844de81b7b14d88eeb5"
+    },
+    {
+      "path": "slicer/models/Model_5_temporal_horn_of_left_lateral_ventricle.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_5_temporal_horn_of_left_lateral_ventricle.vtk",
+      "bytes": 47986,
+      "sha256": "97a7eb1e9f9a8e976f5d3e20f04333c32d159e1380ec56d290b53eaedd0909cb",
+      "gitBlobSha1": "685a19a14a7a20a17c30e2ba8e275f9c8132e5d7"
+    },
+    {
+      "path": "slicer/models/Model_61_medulla_oblongata.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_61_medulla_oblongata.vtk",
+      "bytes": 112383,
+      "sha256": "7c645004eeccf46c74a7be797f023e43a55fad4a9da74298f3c7ee3829861dd2",
+      "gitBlobSha1": "9d7ddb97fed5c7e78a060ad311263adf71e510a3"
+    },
+    {
+      "path": "slicer/models/Model_66_left_substantia_nigra.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_66_left_substantia_nigra.vtk",
+      "bytes": 17972,
+      "sha256": "a4e772a2236780f258785d7a5b678fef2486b3de04a10ff4d001dd17efeb96b3",
+      "gitBlobSha1": "bbc385cf0a198fb2f59f2a6731a33123c36f80dd"
+    },
+    {
+      "path": "slicer/models/Model_71_right_substantia_nigra.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_71_right_substantia_nigra.vtk",
+      "bytes": 18408,
+      "sha256": "6ca513c70e5e4cc4cc28c939b0c24f0100d4937fdb17ee6de8a5bc3e966d4ef9",
+      "gitBlobSha1": "5dfdd31f37d5a9c342213f7bd2369a64552c20f2"
+    },
+    {
+      "path": "slicer/models/Model_72_pineal_body.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_72_pineal_body.vtk",
+      "bytes": 5610,
+      "sha256": "dae3bc40a6c96b70c973f91caf0828a71a4ebb764a77cceb8c498e2cbc479e89",
+      "gitBlobSha1": "6c466655d4e23779876aad5e7ff7c1c6d9bf7e28"
+    },
+    {
+      "path": "slicer/models/Model_77_left_optic_nerve.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_77_left_optic_nerve.vtk",
+      "bytes": 22772,
+      "sha256": "ebc5f9fd609a9b48b6efb51465da575615d18bf8658e55b570ef0ef7d859fa79",
+      "gitBlobSha1": "9202057110916b9c170764215760f1839b0bb82b"
+    },
+    {
+      "path": "slicer/models/Model_78_left_optic_tract.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_78_left_optic_tract.vtk",
+      "bytes": 18876,
+      "sha256": "205af43cbc1efb294c449b8206825b40cd2f748977c8c02d35f17bdfea2ad1b7",
+      "gitBlobSha1": "a108c690f3b482d50601542c06f4bca2bebbd27e"
+    },
+    {
+      "path": "slicer/models/Model_79_left_red_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_79_left_red_nucleus.vtk",
+      "bytes": 6898,
+      "sha256": "7269d43e2fcc4c67303d1b2382edc5d69cd09b5f2cb02b3c611c08dc9150734c",
+      "gitBlobSha1": "f81786d57b1ed1413f7f542414040588ac408e3b"
+    },
+    {
+      "path": "slicer/models/Model_7_white_matter_of_left_hemisphere_of_cerebellum.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_7_white_matter_of_left_hemisphere_of_cerebellum.vtk",
+      "bytes": 390834,
+      "sha256": "20ac63c0bc854e09eb0bd9e2d9c81daf07f47362f5c16390befb6c18b219c69f",
+      "gitBlobSha1": "24f6706afa9d4d70d20d22738d6998c3520feb47"
+    },
+    {
+      "path": "slicer/models/Model_83_right_globus_pallidus_pars_interna.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_83_right_globus_pallidus_pars_interna.vtk",
+      "bytes": 30944,
+      "sha256": "7bab350c9d1fabe0f71ed98f99f010aadcb5b8b4a473b6520644527072844f04",
+      "gitBlobSha1": "2c245d5852fde9aefb105b48e283500cc2b012c3"
+    },
+    {
+      "path": "slicer/models/Model_84_right_red_nucleus.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_84_right_red_nucleus.vtk",
+      "bytes": 6510,
+      "sha256": "7f9bff8fdec9b3962961b4c64ae115922b8e748e4e01cd66abadf39f228fda7e",
+      "gitBlobSha1": "6fc18ab16971e490d8c13f78bc5626b5b1bd798e"
+    },
+    {
+      "path": "slicer/models/Model_85_optic_chiasm.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_85_optic_chiasm.vtk",
+      "bytes": 18104,
+      "sha256": "71924138e6c2b86c00256c08efe06a268c5152d49e0fb0641be0e3c9067081a5",
+      "gitBlobSha1": "187fb31380cf9e9af5229d3782d9ff4687b44b99"
+    },
+    {
+      "path": "slicer/models/Model_96_pellucid_septum.vtk",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/models/Model_96_pellucid_septum.vtk",
+      "bytes": 17000,
+      "sha256": "5a0e8db7fce1b9c43d30fd2fa6549b46de470dd9d1ff4678c2b9683ebfa06745",
+      "gitBlobSha1": "1e5aed7a1d1066d13226508bf3b7494602a5c222"
+    },
+    {
+      "path": "slicer/transforms/LinearTransform_3.tfm",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/transforms/LinearTransform_3.tfm",
+      "bytes": 139,
+      "sha256": "5b2797e7f1db5f79323eea91a620dfd0733c1a0f688218ae48406cb9400135d9",
+      "gitBlobSha1": "12e0fa43445e4eab876a7012da9046905d046047"
+    },
+    {
+      "path": "slicer/volumes/imaging/A1_grayT1-1mm_resample.nrrd",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/volumes/imaging/A1_grayT1-1mm_resample.nrrd",
+      "bytes": 9253307,
+      "sha256": "1fdb69d9a544916bef324ebf600016f41d03d364999c26a863a53cab6c438b51",
+      "gitBlobSha1": "0999734c875de883c15d71dabb226fa7eea2fe36"
+    },
+    {
+      "path": "slicer/volumes/labels/hncma-atlas.nrrd",
+      "url": "https://raw.githubusercontent.com/mhalle/spl-brain-atlas/bec24db25aad5f7600e2df3becfb1f883e61ff56/slicer/volumes/labels/hncma-atlas.nrrd",
+      "bytes": 466100,
+      "sha256": "d40a8b7d3adc1e8bec3c276a895db6aaed913aa83a2161015da1083face636ae",
+      "gitBlobSha1": "84de10e6381961b3f1d553a3d8d6f4a27489e2a7"
+    },
+    {
+      "path": "licenses/SLICER-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/Slicer/Slicer/4666f3bea633b27a517e0e3ee0f7c0f5917cfe24/License.txt",
+      "bytes": 10514,
+      "sha256": "03fc5cd907e5c2004ce199d66318d32a08fa2de2b5b28bee184edda6307d0b86",
+      "gitBlobSha1": "eef693232a65a5b1582f7190f59e6da6b21d706c"
+    }
+  ],
+  "licenseCommit": "4666f3bea633b27a517e0e3ee0f7c0f5917cfe24"
+}
