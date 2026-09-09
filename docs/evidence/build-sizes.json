@@ -1,0 +1,33 @@
+{
+  "measuredAt": "2026-09-09T23:37:06.791Z",
+  "method": "Local release build file sizes; gzip at Node default compression. Not a network timing or physical-device FPS measurement.",
+  "shell": {
+    "raw": 456973,
+    "gzip": 139755
+  },
+  "catalog": {
+    "raw": 426239,
+    "gzip": 65571
+  },
+  "fontWoff2Bytes": 84552,
+  "initialShellAndCatalogAndFontsBytes": 289878,
+  "lazyGraphics": {
+    "raw": 989089,
+    "gzip": 268966
+  },
+  "firstAnatomyModule": {
+    "models": 35,
+    "raw": 12956764,
+    "gzip": 7992818
+  },
+  "totalModels": 258,
+  "targets": {
+    "shellCompressedBytes": 1500000,
+    "firstAnatomyTransferBytes": 15000000
+  },
+  "limitations": [
+    "Actual CDN transfer encoding and load times depend on network/cache.",
+    "60 desktop FPS and 30 FPS on a named physical phone have not been measured.",
+    "Software-rendered headless browser verifies behavior, not GPU performance."
+  ]
+}

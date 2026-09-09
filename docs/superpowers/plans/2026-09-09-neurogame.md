@@ -20,32 +20,32 @@
 
 ## Task 1: Inventário e ativos
 
-- [ ] Ler roteiro completo, registrar ocorrência/página/contexto em `src/content/curriculum.json`.
-- [ ] Fixar SPL/NAC por commit e hashes; registrar licença efetiva e transformações em `public/atlas/manifest.json`.
-- [ ] Converter todos os modelos pertinentes em GLB sob demanda; gerar RM/labels PNG sem perda nos três planos.
-- [ ] Validar hashes, integridade, bounds, lateralidade e pontos de referência independentes. Documentar lacunas em `docs/cobertura-roteiro.md` e revisão em `docs/revisao-anatomica.md`.
+- [x] Ler roteiro completo, registrar ocorrência/página/contexto em `src/content/curriculum.json`.
+- [x] Fixar SPL/NAC por commit e hashes; registrar licença efetiva e transformações em `public/anatomy/manifest.json`.
+- [x] Converter todos os modelos pertinentes em GLB sob demanda; gerar RM/labels PNG sem perda nos três planos.
+- [x] Validar hashes, integridade, bounds, lateralidade e pontos de referência independentes. Documentar lacunas em `docs/cobertura-roteiro.md` e revisão em `docs/revisao-anatomica.md`.
 
 ## Task 2: Domínio e persistência
 
 Files: `src/domain/{types,engine,storage}.ts` e testes adjacentes.
 
-- [ ] Testes primeiro: normalização preserva lado; aliases exatos; seed estável; alternativas únicas; limite real; duplicatas de evento e pergunta anterior ignoradas; ajuda/repetição não viram acerto independente; omissão e anulação com denominadores corretos.
-- [ ] Implementar funções puras com tipos e resultado discriminado. Avaliação sem fonte/alvo é inelegível.
-- [ ] Testar serialização/validação versão 1, importação malformada, storage indisponível e restauração de perguntas/seed/ordem.
+- [x] Testes primeiro: normalização preserva lado; aliases exatos; seed estável; alternativas únicas; limite real; duplicatas de evento e pergunta anterior ignoradas; ajuda/repetição não viram acerto independente; omissão e anulação com denominadores corretos.
+- [x] Implementar funções puras com tipos e resultado discriminado. Avaliação sem fonte/alvo é inelegível.
+- [x] Testar serialização/validação versão 1, importação malformada, storage indisponível e restauração de perguntas/seed/ordem.
 
 ## Task 3: Atlas e interface
 
 Files: `src/atlas/{BrainScene,SliceViewer,spatial}.tsx`, `src/components`, `src/App.tsx`, `src/styles.css`.
 
-- [ ] Teste espacial com coordenadas conhecidas e ida/volta. Construir cena por grupos reais, seleção por raycast e cortes com pixel label sem interpolação.
-- [ ] Integrar árvore, busca/aliases, fichas/referências, seis presets, zoom, pan, isolamento, ocultação, labels e plano sincronizado.
-- [ ] Integrar treino e simulado sem nome/tooltip/estatística vazando resposta. Estados de carregamento/erro pausam ou anulam avaliação.
-- [ ] Integrar progresso real, revisão dos erros, exportar/importar/apagar, movimento reduzido e tutorial dispensável.
+- [x] Teste espacial com coordenadas conhecidas e ida/volta. Construir cena por grupos reais, seleção por raycast e cortes com pixel label sem interpolação.
+- [x] Integrar árvore, busca/aliases, fichas/referências, seis presets, zoom, pan, isolamento, ocultação, labels e plano sincronizado.
+- [x] Integrar treino e simulado sem nome/tooltip/estatística vazando resposta. Estados de carregamento/erro pausam ou anulam avaliação.
+- [x] Integrar progresso real, revisão dos erros, exportar/importar/apagar, movimento reduzido e tutorial dispensável.
 
 ## Task 4: Verificação e release
 
-- [ ] Executar `npm run check`, `npm test`, `npm run build`, `npm run test:e2e`; investigar falhas antes de declarar sucesso.
-- [ ] Revisar screenshots desktop/mobile, WebGL real, clique 3D/corte, rede/console, fallback, teclado, importação e restore.
-- [ ] Validar público sem PDFs e todas as URLs sob /neurogame/; medir tamanho do shell/primeiro módulo e registrar limites não medidos.
+- [x] Executar `npm run check`, `npm test`, `npm run build`, `npm run test:e2e`; investigar falhas antes de declarar sucesso.
+- [x] Revisar screenshots desktop/mobile, WebGL real, clique 3D/corte, rede/console, fallback, teclado, importação e restore.
+- [x] Validar público sem PDFs e todas as URLs sob /neurogame/; medir tamanho do shell/primeiro módulo e registrar limites não medidos.
 - [ ] Criar repo autorizado, commits e PR; configurar Actions/Pages com permissões mínimas e refs verificadas. Verificar workflow e recursos na URL final.
 - [ ] Atualizar `docs/execucao.md` com implementado, validado, publicado, bloqueado, commit, PR e evidências reais.

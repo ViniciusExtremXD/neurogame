@@ -10,4 +10,4 @@ playwright-report/
 *.vtk
 *.log
 tmp/
-
+*.tsbuildinfo
