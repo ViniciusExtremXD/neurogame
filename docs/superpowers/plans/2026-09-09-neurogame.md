@@ -47,5 +47,5 @@ Files: `src/atlas/{BrainScene,SliceViewer,spatial}.tsx`, `src/components`, `src/
 - [x] Executar `npm run check`, `npm test`, `npm run build`, `npm run test:e2e`; investigar falhas antes de declarar sucesso.
 - [x] Revisar screenshots desktop/mobile, WebGL real, clique 3D/corte, rede/console, fallback, teclado, importação e restore.
 - [x] Validar público sem PDFs e todas as URLs sob /neurogame/; medir tamanho do shell/primeiro módulo e registrar limites não medidos.
-- [ ] Criar repo autorizado, commits e PR; configurar Actions/Pages com permissões mínimas e refs verificadas. Verificar workflow e recursos na URL final.
-- [ ] Atualizar `docs/execucao.md` com implementado, validado, publicado, bloqueado, commit, PR e evidências reais.
+- [x] Criar repo autorizado, commits e PR; configurar Actions/Pages com permissões mínimas e refs verificadas. Verificar workflow e recursos na URL final.
+- [x] Atualizar `docs/execucao.md` com implementado, validado, publicado, bloqueado, commit, PR e evidências reais.

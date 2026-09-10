@@ -1,5 +1,7 @@
 # NeuroGame
 
+[Abrir a beta publicada](https://viniciusextremxd.github.io/neurogame/) · [Verificação da publicação](docs/evidence/deployment.json)
+
 Laboratório educacional de neuroanatomia em português: atlas 3D real, cortes de RM registrados, treino, simulado e revisão local. Aplicação estática React/TypeScript/Vite; sem backend ou conta.
 
 ## Rodar

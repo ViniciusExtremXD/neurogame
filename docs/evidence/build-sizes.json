@@ -1,19 +1,19 @@
 {
-  "measuredAt": "2026-09-09T23:37:06.791Z",
+  "measuredAt": "2026-09-10T00:10:31.414Z",
   "method": "Local release build file sizes; gzip at Node default compression. Not a network timing or physical-device FPS measurement.",
   "shell": {
     "raw": 456973,
-    "gzip": 139755
+    "gzip": 139753
   },
   "catalog": {
     "raw": 426239,
     "gzip": 65571
   },
   "fontWoff2Bytes": 84552,
-  "initialShellAndCatalogAndFontsBytes": 289878,
+  "initialShellAndCatalogAndFontsBytes": 289876,
   "lazyGraphics": {
-    "raw": 989089,
-    "gzip": 268966
+    "raw": 990453,
+    "gzip": 269494
   },
   "firstAnatomyModule": {
     "models": 35,

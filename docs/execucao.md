@@ -29,7 +29,11 @@ A primeira verificação pública encontrou conexões GLB interrompidas durante 
 
 ## Publicação
 
-Destino autorizado pelo usuário: [ViniciusExtremXD/neurogame](https://github.com/ViniciusExtremXD/neurogame), público; permissão ADMIN confirmada. GitHub Pages configurado por Actions para [a URL final](https://viniciusextremxd.github.io/neurogame/). Publicação ainda em verificação nesta revisão; não declarar concluída até confirmar workflow e recursos no endereço público.
+Destino autorizado pelo usuário: [ViniciusExtremXD/neurogame](https://github.com/ViniciusExtremXD/neurogame), público; permissão ADMIN confirmada. GitHub Pages configurado por Actions para [a URL final](https://viniciusextremxd.github.io/neurogame/). **Publicado e verificado:** [commit do artefato `8c159cf`](https://github.com/ViniciusExtremXD/neurogame/commit/8c159cf6f6d3fa0181ff990987bfe4dc7f7feed3), [PR #1](https://github.com/ViniciusExtremXD/neurogame/pull/1), [correção no PR #2](https://github.com/ViniciusExtremXD/neurogame/pull/2) e [workflow concluído com sucesso](https://github.com/ViniciusExtremXD/neurogame/actions/runs/34419648494).
+
+Os **14 testes Playwright passaram na URL pública**, em 56,4 s, incluindo seleção 3D, cortes, treino, simulado, celular, teclado, acessibilidade e recuperação transitória de downloads. HTML, manifesto e catálogo públicos coincidem byte a byte com a release local. [Registro final](evidence/deployment.json); as quatro capturas nesta pasta foram produzidas no site público. A amostra independente de 12 arquivos da publicação inicial permanece em [live-assets.json](evidence/live-assets.json); os dados anatômicos não foram alterados pela correção do transporte.
+
+O commit posterior que registra estas evidências altera apenas documentação; o artefato publicado continua identificado pelo commit acima.
 
 O workflow `.github/workflows/pages.yml` executa instalação, verificações, testes e build, testa o artefato e publica esse mesmo `dist` somente em `main`. Actions fixadas por SHA, credenciais de checkout não persistidas e permissões de Pages/OIDC restritas ao job de deploy.
 

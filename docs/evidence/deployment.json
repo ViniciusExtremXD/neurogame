@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-09-10T00:11:38.906078+00:00",
+  "url": "https://viniciusextremxd.github.io/neurogame/",
+  "artifactCommit": "8c159cf6f6d3fa0181ff990987bfe4dc7f7feed3",
+  "workflow": "https://github.com/ViniciusExtremXD/neurogame/actions/runs/34419648494",
+  "pullRequests": [
+    "https://github.com/ViniciusExtremXD/neurogame/pull/1",
+    "https://github.com/ViniciusExtremXD/neurogame/pull/2"
+  ],
+  "localValidation": {
+    "vitestPassed": 96,
+    "releaseBrowserTestsPassed": 14,
+    "integrationBrowserTestsPassed": 7,
+    "typecheck": "passed",
+    "eslint": "passed",
+    "assetValidator": "passed",
+    "build": "passed"
+  },
+  "publicBrowserValidation": {
+    "browser": "Microsoft Edge via Playwright",
+    "testsPassed": 14,
+    "testsFailed": 0,
+    "durationSeconds": 56.4,
+    "includes": [
+      "physical mesh raycast and drag guard",
+      "independent aqueduct axial landmark",
+      "locate, name and four-option answers",
+      "exam restore without feedback leaks",
+      "390x844 viewport and reduced motion",
+      "model and slice failure handling",
+      "missing WebGL MRI fallback",
+      "transient model connection recovery",
+      "right lateral/medial views and hidden-scene recovery",
+      "export, erase and validated import",
+      "late import cancellation",
+      "browser history pause and skip-link focus",
+      "axe WCAG A/AA scan on five main screens"
+    ]
+  },
+  "publicHashChecks": [
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/",
+      "httpStatus": 200,
+      "sha256": "ff2c6a32d2ccc387b58cf7cb8ae812696631f214538b32281618749fe3dd8526",
+      "matchesLocalRelease": true
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/manifest.json",
+      "httpStatus": 200,
+      "sha256": "228b19907a73d8d00c62a01f636d031ebfba07145eefaabfb64b3674d712d587",
+      "matchesLocalRelease": true
+    },
+    {
+      "url": "https://viniciusextremxd.github.io/neurogame/content/catalog.json",
+      "httpStatus": 200,
+      "sha256": "61f38fb8b8d2c942b2aa684a58c43197f0a610fb31ec568d0b37714aedc633a9",
+      "matchesLocalRelease": true
+    }
+  ],
+  "screenshots": [
+    "desktop-atlas.png",
+    "aqueduct-slice.png",
+    "mobile-atlas.png",
+    "exam-review.png"
+  ],
+  "limitations": [
+    "Automated checks do not replace anatomical review by a qualified reviewer.",
+    "No physical-phone FPS measurement or TC dataset.",
+    "Coverage: 70/404 items 3D, 54/404 slices, 109 eligible targets; missing visual content remains visible."
+  ]
+}
