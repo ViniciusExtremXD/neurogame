@@ -331,6 +331,21 @@ test("missing WebGL offers usable real MRI instead of an empty canvas", async ({
   await expect(page.locator(".slice-viewer canvas")).toBeVisible();
 });
 
+test("a transient model connection reset recovers before offering the MRI fallback", async ({ page }) => {
+  let requests = 0;
+  const errors: string[] = [];
+  page.on("pageerror", error => errors.push(error.message));
+  await page.route("**/models/spl-1024.glb", route => {
+    requests++;
+    return requests === 1 ? route.abort("connectionreset") : route.continue();
+  });
+  await page.goto("./");
+  await ready(page);
+  expect(requests).toBe(2);
+  await expect(page.getByRole("button", { name: "Abrir atlas de RM" })).toHaveCount(0);
+  expect(errors).toEqual([]);
+});
+
 test("right lateral and medial views load; hide and isolate can always recover", async ({
   page,
 }) => {

@@ -27,6 +27,7 @@ import {
   Vector3,
 } from "three";
 import type { AnatomyAsset, SceneProps } from "./types";
+import { fetchAnatomyAsset } from "./assetTransport";
 import {
   cameraFramingBounds,
   cameraPresetDirection,
@@ -131,12 +132,10 @@ function AnatomyMesh({
       owned: Group | null = null;
     async function load() {
       try {
-        const response = await fetch(base + asset.path, {
-          signal: controller.signal,
-        });
-        if (!response.ok)
-          throw new Error("Não foi possível obter um modelo anatômico.");
-        const bytes = await response.arrayBuffer();
+        const bytes = await fetchAnatomyAsset(
+          base + asset.path,
+          controller.signal,
+        );
         if (cancelled) return;
         const gltf = await new GLTFLoader().parseAsync(bytes, "");
         if (cancelled) {

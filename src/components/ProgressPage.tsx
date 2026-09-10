@@ -61,6 +61,9 @@ export default function ProgressPage({
   async function upload(input: HTMLInputElement) {
     const file = input.files?.[0];
     if (!file) return;
+    // Capture the File before clearing the picker so it can be chosen again
+    // even if this import is cancelled by deleting progress or navigating.
+    input.value = "";
     const operation = ++importOperation.current;
     const original = progress;
     setImporting(true);

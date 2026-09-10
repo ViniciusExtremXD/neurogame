@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-09T23:49:47.607883+00:00",
+  "baseUrl": "https://viniciusextremxd.github.io/neurogame/",
+  "releaseCommit": "fb0e05ffb534b53dc4638b7d29968e3c652b4eec",
+  "workflowRunId": "34418183815",
+  "verificationScope": "Representative public artifact sample; this does not claim every deployed atlas file was downloaded. SHA-256 hashes computed over the HTTP response bytes and compared with the local release files and atlas manifest where present. PNG label IDs decoded as R + 256 * G.",
+  "status": "passed",
+  "artifactCount": 12,
+  "artifacts": [
+    {
+      "path": "anatomy/manifest.json",
+      "kind": "manifest",
+      "expectedManifestSha256": "228b19907a73d8d00c62a01f636d031ebfba07145eefaabfb64b3674d712d587",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/manifest.json",
+      "localBytes": 592361,
+      "localSha256": "228b19907a73d8d00c62a01f636d031ebfba07145eefaabfb64b3674d712d587",
+      "checkedAt": "2026-09-09T23:49:46.804226+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/manifest.json",
+      "bytes": 592361,
+      "sha256": "228b19907a73d8d00c62a01f636d031ebfba07145eefaabfb64b3674d712d587",
+      "contentType": "application/json; charset=utf-8",
+      "etag": "\"6aa1f008-909e9\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true
+    },
+    {
+      "path": "anatomy/models/spl-19.glb",
+      "kind": "glb",
+      "assetId": "spl-19",
+      "expectedManifestSha256": "1c7b0483924b3c72e305bea5345a92dcecf1b5b13be236cfb57f47769d30ef3e",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-19.glb",
+      "localBytes": 18496,
+      "localSha256": "1c7b0483924b3c72e305bea5345a92dcecf1b5b13be236cfb57f47769d30ef3e",
+      "checkedAt": "2026-09-09T23:49:46.801948+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-19.glb",
+      "bytes": 18496,
+      "sha256": "1c7b0483924b3c72e305bea5345a92dcecf1b5b13be236cfb57f47769d30ef3e",
+      "contentType": "model/gltf-binary",
+      "etag": "\"6aa1f008-4840\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "glb": {
+        "version": 2,
+        "validHeader": true,
+        "meshNodeNames": [
+          "spl-19"
+        ],
+        "matchesAssetId": true
+      }
+    },
+    {
+      "path": "anatomy/models/spl-11.glb",
+      "kind": "glb",
+      "assetId": "spl-11",
+      "expectedManifestSha256": "2525ca01d78dd3205656a317108e32c666f1293e603b07f6995f9d8607a8b301",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-11.glb",
+      "localBytes": 154460,
+      "localSha256": "2525ca01d78dd3205656a317108e32c666f1293e603b07f6995f9d8607a8b301",
+      "checkedAt": "2026-09-09T23:49:46.803111+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-11.glb",
+      "bytes": 154460,
+      "sha256": "2525ca01d78dd3205656a317108e32c666f1293e603b07f6995f9d8607a8b301",
+      "contentType": "model/gltf-binary",
+      "etag": "\"6aa1f008-25b5c\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "glb": {
+        "version": 2,
+        "validHeader": true,
+        "meshNodeNames": [
+          "spl-11"
+        ],
+        "matchesAssetId": true
+      }
+    },
+    {
+      "path": "anatomy/models/spl-50.glb",
+      "kind": "glb",
+      "assetId": "spl-50",
+      "expectedManifestSha256": "f41e358753d37e53b7c740e6a8e2edcd6f55cb180bd69324425debba2f1ac76d",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-50.glb",
+      "localBytes": 154052,
+      "localSha256": "f41e358753d37e53b7c740e6a8e2edcd6f55cb180bd69324425debba2f1ac76d",
+      "checkedAt": "2026-09-09T23:49:46.803566+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-50.glb",
+      "bytes": 154052,
+      "sha256": "f41e358753d37e53b7c740e6a8e2edcd6f55cb180bd69324425debba2f1ac76d",
+      "contentType": "model/gltf-binary",
+      "etag": "\"6aa1f008-259c4\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "glb": {
+        "version": 2,
+        "validHeader": true,
+        "meshNodeNames": [
+          "spl-50"
+        ],
+        "matchesAssetId": true
+      }
+    },
+    {
+      "path": "anatomy/models/spl-1024.glb",
+      "kind": "glb",
+      "assetId": "spl-1024",
+      "expectedManifestSha256": "ee0e25d72e1cad3e022a13861d92154652d1a0764df1dc33d4c40fd4f4fd4cb0",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1024.glb",
+      "localBytes": 754672,
+      "localSha256": "ee0e25d72e1cad3e022a13861d92154652d1a0764df1dc33d4c40fd4f4fd4cb0",
+      "checkedAt": "2026-09-09T23:49:47.013103+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/models/spl-1024.glb",
+      "bytes": 754672,
+      "sha256": "ee0e25d72e1cad3e022a13861d92154652d1a0764df1dc33d4c40fd4f4fd4cb0",
+      "contentType": "model/gltf-binary",
+      "etag": "\"6aa1f008-b83f0\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "glb": {
+        "version": 2,
+        "validHeader": true,
+        "meshNodeNames": [
+          "spl-1024"
+        ],
+        "matchesAssetId": true
+      }
+    },
+    {
+      "path": "anatomy/slices/axial/147-labels.png",
+      "kind": "labels",
+      "plane": "axial",
+      "index": 147,
+      "expectedManifestSha256": "ddbd60147f4ff3b2a33fb7facb6d99a85ac6543e9b023981d8471d5d1c3930c7",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/axial/147-labels.png",
+      "localBytes": 5400,
+      "localSha256": "ddbd60147f4ff3b2a33fb7facb6d99a85ac6543e9b023981d8471d5d1c3930c7",
+      "checkedAt": "2026-09-09T23:49:47.125640+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/axial/147-labels.png",
+      "bytes": 5400,
+      "sha256": "ddbd60147f4ff3b2a33fb7facb6d99a85ac6543e9b023981d8471d5d1c3930c7",
+      "contentType": "image/png",
+      "etag": "\"6aa1f008-1518\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGB"
+      },
+      "landmarks": [
+        {
+          "pixel": [
+            128,
+            149
+          ],
+          "expectedLabelId": 19,
+          "actualLabelId": 19,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "path": "anatomy/slices/axial/147-mri.png",
+      "kind": "mri",
+      "plane": "axial",
+      "index": 147,
+      "expectedManifestSha256": "da989e0d5d945ad9ef3cacd2aa5c213e96d74b47e00f10d3a61773325f749007",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/axial/147-mri.png",
+      "localBytes": 21303,
+      "localSha256": "da989e0d5d945ad9ef3cacd2aa5c213e96d74b47e00f10d3a61773325f749007",
+      "checkedAt": "2026-09-09T23:49:47.126654+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/axial/147-mri.png",
+      "bytes": 21303,
+      "sha256": "da989e0d5d945ad9ef3cacd2aa5c213e96d74b47e00f10d3a61773325f749007",
+      "contentType": "image/png",
+      "etag": "\"6aa1f008-5337\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "L"
+      }
+    },
+    {
+      "path": "anatomy/slices/coronal/122-labels.png",
+      "kind": "labels",
+      "plane": "coronal",
+      "index": 122,
+      "expectedManifestSha256": "5d63a637024d9ea8a1daa605b87fb54c4f8980a6bec622232e9181a346df2554",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/coronal/122-labels.png",
+      "localBytes": 4827,
+      "localSha256": "5d63a637024d9ea8a1daa605b87fb54c4f8980a6bec622232e9181a346df2554",
+      "checkedAt": "2026-09-09T23:49:47.130457+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/coronal/122-labels.png",
+      "bytes": 4827,
+      "sha256": "5d63a637024d9ea8a1daa605b87fb54c4f8980a6bec622232e9181a346df2554",
+      "contentType": "image/png",
+      "etag": "\"6aa1f008-12db\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGB"
+      },
+      "landmarks": [
+        {
+          "pixel": [
+            141,
+            114
+          ],
+          "expectedLabelId": 11,
+          "actualLabelId": 11,
+          "matches": true
+        },
+        {
+          "pixel": [
+            115,
+            114
+          ],
+          "expectedLabelId": 50,
+          "actualLabelId": 50,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "path": "anatomy/slices/coronal/122-mri.png",
+      "kind": "mri",
+      "plane": "coronal",
+      "index": 122,
+      "expectedManifestSha256": "3d40cb6be173bb2582af936c3a23de2b5f5ed0a3c4b7d58f6750017841d298b1",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/coronal/122-mri.png",
+      "localBytes": 22683,
+      "localSha256": "3d40cb6be173bb2582af936c3a23de2b5f5ed0a3c4b7d58f6750017841d298b1",
+      "checkedAt": "2026-09-09T23:49:47.265843+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/coronal/122-mri.png",
+      "bytes": 22683,
+      "sha256": "3d40cb6be173bb2582af936c3a23de2b5f5ed0a3c4b7d58f6750017841d298b1",
+      "contentType": "image/png",
+      "etag": "\"6aa1f008-589b\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "L"
+      }
+    },
+    {
+      "path": "anatomy/slices/sagittal/128-labels.png",
+      "kind": "labels",
+      "plane": "sagittal",
+      "index": 128,
+      "expectedManifestSha256": "04707065e73e8d46f086dda733ac9167d2b2c1bc312045c698e9de2adaa34d8a",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/sagittal/128-labels.png",
+      "localBytes": 6083,
+      "localSha256": "04707065e73e8d46f086dda733ac9167d2b2c1bc312045c698e9de2adaa34d8a",
+      "checkedAt": "2026-09-09T23:49:47.407272+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/sagittal/128-labels.png",
+      "bytes": 6083,
+      "sha256": "04707065e73e8d46f086dda733ac9167d2b2c1bc312045c698e9de2adaa34d8a",
+      "contentType": "image/png",
+      "etag": "\"6aa1f008-17c3\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGB"
+      },
+      "landmarks": [
+        {
+          "pixel": [
+            149,
+            147
+          ],
+          "expectedLabelId": 19,
+          "actualLabelId": 19,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "path": "anatomy/slices/sagittal/128-mri.png",
+      "kind": "mri",
+      "plane": "sagittal",
+      "index": 128,
+      "expectedManifestSha256": "abab6695c29e8643ea59dcc3a1f179a806b92477c07248459e99f2d3e5c51a46",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/sagittal/128-mri.png",
+      "localBytes": 32383,
+      "localSha256": "abab6695c29e8643ea59dcc3a1f179a806b92477c07248459e99f2d3e5c51a46",
+      "checkedAt": "2026-09-09T23:49:47.407472+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/slices/sagittal/128-mri.png",
+      "bytes": 32383,
+      "sha256": "abab6695c29e8643ea59dcc3a1f179a806b92477c07248459e99f2d3e5c51a46",
+      "contentType": "image/png",
+      "etag": "\"6aa1f008-7e7f\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true,
+      "matchesManifest": true,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "L"
+      }
+    },
+    {
+      "path": "anatomy/licenses/SLICER-LICENSE.txt",
+      "kind": "license",
+      "url": "https://viniciusextremxd.github.io/neurogame/anatomy/licenses/SLICER-LICENSE.txt",
+      "localBytes": 10924,
+      "localSha256": "117f46fad4f50c5c13444d167b66c958a5844b82b553e38f67bcb46a4a289f7f",
+      "checkedAt": "2026-09-09T23:49:47.407660+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://viniciusextremxd.github.io/neurogame/anatomy/licenses/SLICER-LICENSE.txt",
+      "bytes": 10924,
+      "sha256": "117f46fad4f50c5c13444d167b66c958a5844b82b553e38f67bcb46a4a289f7f",
+      "contentType": "text/plain; charset=utf-8",
+      "etag": "\"6aa1f008-2aac\"",
+      "lastModified": "Wed, 09 Sep 2026 23:47:20 GMT",
+      "matchesLocal": true
+    }
+  ]
+}
